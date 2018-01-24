@@ -5,14 +5,15 @@
 \usepackage{dcolumn}% Align table columns on decimal point
 \usepackage{bm}% bold math
 
-\usepackage{lineno,hyperref, url}
+%\usepackage{lineno,hyperref, url}
 \usepackage{indentfirst}
 \usepackage{array, threeparttable}
 \usepackage{multirow}
 \usepackage{mathrsfs}
 \usepackage{color}
 \usepackage{amsmath, amssymb}
-\modulolinenumbers[5]
+
+%\modulolinenumbers[5]
 
 \journal{Journal of \LaTeX\ Templates}
 
@@ -70,13 +71,20 @@
 
 \end{frontmatter}
 
-\linenumbers
+%\linenumbers
 
 \section{Definition of coordinate system}
 The original coordinate system is defined as $x\sim y$. The new coordinate system is $x' \sim y'$, which 
-is obtained by rotating $x \sim y$ for $\theta$ degree.
+is obtained by rotating $x \sim y$ for $\theta$ degree. Fig.~\ref{fig:CoordinateSystemRotation} shows the relations of two coordinate systems. 
 
-The scalar variables in $x \sim y$ and $x' \sim y'$ are expressed as $p$ and $p'$ respectively. The vector variables in $x \sim y$ and $x' \sim y'$ is read as $\bm{u}$ and $\bm{u}'$ respectively.
+\begin{figure}[!htp]
+	\centering
+	\includegraphics[width=0.5\textwidth]{CoordinateSystemRotation.eps}
+	\caption{The relations of $x \sim y$ and $x' \sim y'$}.
+	\label{fig:CoordinateSystemRotation}
+\end{figure}
+
+The scalar variables in $x \sim y$ and $x' \sim y'$ are expressed as $p$ and $p'$ respectively. The vector variables in $x \sim y$ and $x' \sim y'$ are read as $\bm{u}$ and $\bm{u}'$ respectively.
 The unit normal vector of $x'-\text{axis}$ under $x \sim y$ can be expressed as
 \begin{equation}\label{normal}
 	\bm{n}=(n_x, n_y) = (cos\theta, sin\theta).\\
@@ -85,161 +93,168 @@ The unit normal vector of $y'-\text{axis}$ under $x \sim y$ is
 \begin{equation}\label{tangent}
 	\bm{t} = (t_x, t_y) = (-n_y, n_x)=(-sin\theta, cos\theta).
 \end{equation}
-\section{Transform the coordinate system} 
-The section focuses on the coordinate system transformation used in gas-kinetic scheme. The origin coordinates system is $x \sim y$, 
-the new coordinates system is $x'\sim y'$, $x'$ is obtained by rotating $x$ for $\theta$. The unit normal and tangent vector at the cell interface can be expressed as  
-\begin{equation}\label{normal}
+
+\section{Transformation of variables}
+\begin{itemize}
+	\item Scalar variables\\
+		\begin{equation}\label{scalarTransformation}
+			p'=p.
+		\end{equation}
+	\item Vector variables\\
+		Let 
+		\begin{equation}\label{vector_u}
+			\bm{u}=(u, v)^T,\quad \bm{u}'=(u', v')^T,
+		\end{equation}
+		thus,
+		\begin{equation}\label{vectorTransformation}
+			\bm{u}'=\left(
+				\begin{array}{c}
+					\bm{n} \\
+					\bm{t}
+				\end{array}
+			\right)\bm{u}.
+		\end{equation}
+\end{itemize}
+
+\section{Directional derivative}
+We assume that the unit directional derivative $\bm{l}$ has the following form
+\begin{equation}\label{vector_l}
+	\bm{l}=(l_x, l_y)^T,
+\end{equation}
+thus, the directional derivative of scalar and vector variables under $x \sim y$ can be expressed as
+\begin{equation}\label{directionalDerivatives:scalar:origin}
+	\frac{\partial p}{\partial \bm{l}} = \nabla p \cdot \bm{l}, 
+\end{equation}
+and 
+\begin{equation}\label{directionalDerivatives:vector:origin}
+	\frac{\partial \bm{u}}{\partial \bm{l}} = \frac{\partial}{\partial \bm{l}}\left(\bm{u}\right)
+	=\frac{\partial}{\partial \bm{l}}\left(
+		\begin{array}{c}
+			u\\
+			v
+		\end{array}
+		\right).
+\end{equation}\label{directionalDerivatives:scalar:new}
+The scalar variables $p'$ under $x' \sim y'$ can be written as
+\begin{equation}
+	\frac{\partial p'}{\partial \bm{l}}=\frac{\partial p}{\partial \bm{l}} = \nabla p \cdot \bm{l}. 
+\end{equation}
+The vector variables $\bm{u}'$ under $x' \sim y'$ is
+\begin{equation}\label{directionalDerivatives:vector:new}
+	\frac{\partial \bm{u}'}{\partial \bm{l}} = \frac{\partial}{\partial \bm{l}}\left(\bm{u}'\right)
+	=\frac{\partial}{\partial \bm{l}}\left(\left(
+		\begin{array}{c}
+			\bm{n} \\
+			\bm{t}
+		\end{array}
+	\right)\bm{u}\right)
+	=\left(
+		\begin{array}{c}
+			\bm{n} \\
+			\bm{t}
+		\end{array}
+	\right)\frac{\partial}{\partial \bm{l}}\left(\bm{u}\right).
+\end{equation}
+
+
+\section{The partial derivative operators of unit vector}
+The different order of partial derivative operators of unit vector are read as
+\begin{equation}\label{partlO1}
 	\begin{gathered}
-		\bm{n}=(n_x, n_y)^T = (cos\theta, sin\theta)^T,\\
-		\bm{t} = (t_x, t_y)^T = (-n_y, n_x)^T=(-sin\theta, cos\theta)^T.
+		\frac{\partial}{\partial \bm{l}} = \bm{l}\cdot \nabla,\quad 
+		\frac{\partial^2}{\partial \bm{l}^2} = \left(\bm{l}\cdot \nabla\right)\left(\bm{l}\cdot \nabla\right),\\
+		\frac{\partial^2}{\partial \bm{l}_1\partial \bm{l}_2} = \left(\bm{l}_1\cdot \nabla\right)\left(\bm{l}_2\cdot \nabla\right),\quad 
+		\frac{\partial^{m+n}}{\partial^m \bm{l}_1\partial^n \bm{l}_2} = \left(\bm{l}_1\cdot \nabla\right)^m\left(\bm{l}_2\cdot \nabla\right)^n.
 	\end{gathered}
 \end{equation}
-$\bm{n}$ and $\bm{t}$ denotes the normal and tangent vector respectively.
-\begin{enumerate} 
-	\item \textbf{Coordinate} \\
-	\begin{equation}\label{TCoords:1}
-	\left( \begin{array}{c}  x' \\  y' \end{array} \right) = \left( \begin{array}{cc}
-	n_x & n_y \\
-	t_x & t_y
-	\end{array}\right)\left(\begin{array}{c} x \\ y \end{array}  \right) = \left( \begin{array}{cc}
-	n_x & n_y \\
-	-n_y & n_x
-	\end{array}\right)\left(\begin{array}{c} x \\ y \end{array}  \right),
-	\end{equation}
-	and then 
-	\begin{equation}\label{TCoords:2}
-		\left( \begin{array}{c}  x \\  y \end{array} \right) = \left( \begin{array}{cc}
-		n_x & -n_y \\
-		n_y & n_x
-		\end{array}\right)\left(\begin{array}{c} x' \\ y' \end{array}  \right).
-	\end{equation}
-	\item \textbf{Scalar} \\
-	\begin{equation}\label{TScalar}
-		p'(x',y')=p(x,y).    
-	\end{equation}
-	\item \textbf{Vector} \\
-	Let
-	\begin{eqnarray}
-		\bm{V} = \left(u,v\right) ,
-		\bm{V'} = \left(u',v'\right), 
-	\end{eqnarray}
-	and then $\bm{V'}$ can be obtained by rotating $\bm{V}$ for $\theta$,
-	\begin{equation}\label{TVector:1}
-	\left(\begin{array}{c} u' \\ \upsilon{'}  \end{array} \right) = 
-	\left(\begin{array}{cc}
-	n_x & n_y \\
-	t_x & t_y
-	\end{array} \right) \left(\begin{array}{c} u \\ \upsilon \end{array} \right) = 	\left(\begin{array}{cc}
-	n_x & n_y \\
-	-n_y & n_x
-	\end{array} \right) \left(\begin{array}{c} u \\ \upsilon \end{array} \right),
-	\end{equation}
-	\begin{equation}\label{TVector:2}
-	\left(\begin{array}{c} u \\ \upsilon  \end{array} \right) = 
-	\left(\begin{array}{cc}
-	n_x & -n_y \\
-	n_y & n_x
-	\end{array} \right) \left(\begin{array}{c} u' \\ \upsilon{'} \end{array} \right).
-	\end{equation}
-	
-	\item \textbf{Partial derivative operator}
-	\begin{equation}\label{TPartialx}
-		\frac{\partial}{\partial x'}=\frac{\partial}{\partial x}\frac{\partial x}{\partial x'} 
-		+\frac{\partial}{\partial y}\frac{\partial y}{\partial x'}=n_x\frac{\partial}{\partial x} 
-		+n_y\frac{\partial}{\partial y},
-	\end{equation}
-	\begin{equation}\label{TPartialy}
-		\frac{\partial}{\partial y'}=\frac{\partial}{\partial x}\frac{\partial x}{\partial y'} 
-		+\frac{\partial}{\partial y}\frac{\partial y}{\partial y'}=-n_y\frac{\partial}{\partial x} 
-		+n_x\frac{\partial}{\partial y},
-	\end{equation}
-	\begin{equation}\label{TPartialx2}
+
+\textit{\textbf{Examples:}}\\
+\begin{equation}\label{partialxmyn}
 	\begin{gathered}
-		\frac{\partial^2}{\partial x'^2}=\left(\frac{\partial}{\partial x'}\right)\left(\frac{\partial}{\partial x'}\right)
-		=\left(	n_x\frac{\partial}{\partial x}+n_y\frac{\partial}{\partial y}\right)\left(	n_x\frac{\partial}{\partial x}+n_y\frac{\partial}{\partial y}\right)\\
-		=n_x^2\frac{\partial^2}{\partial x^2}+2n_xn_y\frac{\partial^2}{\partial x\partial y}+n_y^2\frac{\partial^2}{\partial y^2},
+		\frac{\partial}{\partial x'} = \frac{\partial}{\partial \bm{n}}
+			=\bm{n} \cdot \nabla = n_x\frac{\partial}{\partial x}+n_y\frac{\partial}{\partial y},\\
+		\frac{\partial}{\partial y'} = \frac{\partial}{\partial \bm{t}}
+			=\bm{t} \cdot \nabla = -n_y\frac{\partial}{\partial x}+n_x\frac{\partial}{\partial y},\\
+		\frac{\partial^2}{\partial x'^2} = \frac{\partial^2}{\partial\bm{n}^2} 
+			=\left(\bm{n} \cdot \nabla\right)\left(\bm{n} \cdot \nabla\right)
+			=\left(n_x\frac{\partial}{\partial x}+n_y\frac{\partial}{\partial y}\right)\left(n_x\frac{\partial}{\partial x}+n_y\frac{\partial}{\partial y}\right)\\
+			=n_x^2\frac{\partial^2}{\partial x^2}+2n_xn_y\frac{\partial^2}{\partial x\partial y}+n_y^2\frac{\partial^2}{\partial y^2},\\
+		\frac{\partial^2}{\partial x'\partial y'} = \frac{\partial^2}{\partial\bm{n}\partial \bm{t}} 
+			=\left(\bm{n} \cdot \nabla\right)\left(\bm{t} \cdot \nabla\right)
+			=\left(n_x\frac{\partial}{\partial x}+n_y\frac{\partial}{\partial y}\right)\left(-n_y\frac{\partial}{\partial x}+n_x\frac{\partial}{\partial y}\right)\\
+			=n_xn_y\left(\frac{\partial^2}{\partial y^2}-\frac{\partial^2}{\partial x^2}\right)+\left(n_x^2-n_y^2\right)\frac{\partial^2}{\partial x\partial y},\\
+		\frac{\partial^2}{\partial y'^2} = \frac{\partial^2}{\partial\bm{t}^2} 
+			=\left(\bm{t} \cdot \nabla\right)\left(\bm{t} \cdot \nabla\right)
+			=\left(-n_y\frac{\partial}{\partial x}+n_x\frac{\partial}{\partial y}\right)\left(-n_y\frac{\partial}{\partial x}+n_x\frac{\partial}{\partial y}\right)\\
+			=n_y^2\frac{\partial^2}{\partial x^2}-2n_xn_y\frac{\partial^2}{\partial x\partial y}+n_x^2\frac{\partial^2}{\partial y^2}.
 	\end{gathered}
-	\end{equation}
-	\begin{equation}\label{TPartialxy}
+\end{equation}
+
+\section{The partial derivatives of scalar}
+The procedure of transforming the partial derivatives of scalar can be considered as two stages. The first is to transform the scalar, and the second is to transform the partial derivative operator. Since the scalar is uniform under origin and transformed coordinate system, there is no need extra efforts to transform the scalar. Thus
+\begin{equation}\label{dmndx'mdy'n:scalar}
 	\begin{gathered}
-		\frac{\partial^2}{\partial x'\partial y'}=\left(\frac{\partial}{\partial x'}\right)\left(\frac{\partial}{\partial y'}\right)
-		=\left(	n_x\frac{\partial}{\partial x}+n_y\frac{\partial}{\partial y}\right)\left(	-n_y\frac{\partial}{\partial x}+n_x\frac{\partial}{\partial y}\right)\\
-		=n_xn_y\left(\frac{\partial^2}{\partial y^2}-\frac{\partial^2}{\partial x^2}\right)
-		+\left(n_x^2-n_y^2\right)\frac{\partial^2}{\partial x\partial y},
+		\frac{\partial^{m+n}p'}{\partial x'^my'^n} = \frac{\partial^{m+n}}{\partial x'^my'^n}p'
+		=\frac{\partial^{m+n}}{\partial x'^my'^n}p.
 	\end{gathered}
-	\end{equation}
-	\begin{equation}\label{TPartialy2}
+\end{equation}
+\textit{\textbf{Examples:}}\\
+\begin{equation}\label{dp'dx'}
 	\begin{gathered}
-		\frac{\partial^2}{\partial y'^2}=\left(\frac{\partial}{\partial y'}\right)\left(\frac{\partial}{\partial y'}\right).
-				=\left(	-n_y\frac{\partial}{\partial x}+n_x\frac{\partial}{\partial y}\right)\left(	-n_y\frac{\partial}{\partial x}+n_x\frac{\partial}{\partial y}\right)\\
-				=n_y^2\frac{\partial^2}{\partial x^2}-2n_xn_y\frac{\partial^2}{\partial x\partial y}+n_x^2\frac{\partial^2}{\partial y^2}.
+		\frac{\partial{p'}}{\partial{x'}}
+		=\left(n_x\frac{\partial}{\partial{x}} + n_y\frac{\partial}{\partial{y}}	\right)p,
 	\end{gathered}
-	\end{equation}
-	\item \textbf{The partial derivatives of scalar}\\
-	The procedure of transforming the partial derivatives of scalar can be considered as two stages. The first is to transform the scalar, and the second is to transform the partial derivative operator. Since the scalar is uniform under origin and transformed coordinate system, there is no need extra efforts to transform the scalar.
-	\begin{equation}\label{TPScalarPxmyn}
+\end{equation}
+\begin{equation}\label{dp'dy'}
 	\begin{gathered}
-		\frac{\partial^{m+n}P'}{\partial x'^my'^n} = \frac{\partial^{m+n}}{\partial x'^my'^n}P'
-		=\frac{\partial^{m+n}}{\partial x'^my'^n}P,
+		\frac{\partial{p'}}{\partial{y'}} 
+		= \left(-n_y\frac{\partial}{\partial{x}} + n_x\frac{\partial}{\partial{y}} \right)p,
 	\end{gathered}
-	\end{equation}
-	Where $P$ and $P'$ denotes a very scalar under origin and transformed coordinate system respectively.  
-	\begin{equation}\label{TPSPx}
+\end{equation}
+\begin{equation}\label{dp'2dx'2}
 	\begin{gathered}
-		\frac{\partial{P'}}{\partial{x'}}
-			=\left(n_x\frac{\partial}{\partial{x}} + n_y\frac{\partial}{\partial{y}}	\right)P,
+		\frac{\partial^2{p'}}{\partial{x'^2}} 
+		= \left(n_x^2\frac{\partial^2}{\partial x^2}+2n_xn_y\frac{\partial^2}{\partial x\partial y}
+		+n_y^2\frac{\partial^2}{\partial y^2} \right)p,
 	\end{gathered}
-	\end{equation}
-	\begin{equation}\label{TPSPy}
+\end{equation}
+\begin{equation}\label{dp'2dx'dy'}
 	\begin{gathered}
-		\frac{\partial{P'}}{\partial{y'}} 
-			= \left(-n_y\frac{\partial}{\partial{x}} + n_x\frac{\partial}{\partial{y}} \right)P,
+		\frac{\partial^2{p'}}{\partial{x'y'}} 
+		= \left(n_xn_y\left(\frac{\partial^2}{\partial y^2}-\frac{\partial^2}{\partial x^2}\right)
+		+\left(n_x^2-n_y^2\right)\frac{\partial^2}{\partial x\partial y} \right)p,
 	\end{gathered}
-	\end{equation}
-	\begin{equation}\label{TPSPx2}
+\end{equation}
+\begin{equation}\label{dp'2dy'2}
 	\begin{gathered}
-		\frac{\partial^2{P'}}{\partial{x'^2}} 
-			= \left(n_x^2\frac{\partial^2}{\partial x^2}+2n_xn_y\frac{\partial^2}{\partial x\partial y}
-				+n_y^2\frac{\partial^2}{\partial y^2} \right)P,
+		\frac{\partial^2{p'}}{\partial{y'^2}} 
+		= \left( n_y^2\frac{\partial^2}{\partial x^2}-2n_xn_y\frac{\partial^2}{\partial x\partial y}
+		+n_x^2\frac{\partial^2}{\partial y^2}\right)p.
 	\end{gathered}
-	\end{equation}
-	\begin{equation}\label{TPSPxy}
+\end{equation}
+
+\section{The partial derivatives of vector}
+The procedure of transforming the partial derivatives of vector can be considered as two stages. The first is to transform the vector, and the second is to transform the partial derivative operator. Thus
+\begin{equation}\label{dmndx'mdy'n:vector}
 	\begin{gathered}
-		\frac{\partial^2{P'}}{\partial{x'y'}} 
-			= \left(n_xn_y\left(\frac{\partial^2}{\partial y^2}-\frac{\partial^2}{\partial x^2}\right)
-				+\left(n_x^2-n_y^2\right)\frac{\partial^2}{\partial x\partial y} \right)P,
+		\frac{\partial^{m+n}\bm{u}'}{\partial x'^my'^n} = \frac{\partial^{m+n}}{\partial x'^my'^n}\bm{u}'
+		=\frac{\partial^{m+n}}{\partial x'^my'^n}\left(\left(
+				\begin{array}{c} \bm{n} \\ \bm{t}		\end{array}
+			\right)\bm{u}\right)\\
+		=\frac{\partial^{m+n}}{\partial \bm{n}^m\bm{t}^n}\left(\left(
+				\begin{array}{c} \bm{n} \\ \bm{t}		\end{array}
+			\right)\bm{u}\right)
+		=\left(\begin{array}{c} \bm{n} \\ \bm{t} \end{array}\right)
+		\frac{\partial^{m+n}}{\partial \bm{n}^m\bm{t}^n}\bm{u}\\
+		=\left(\begin{array}{cc} n_x & n_y \\ -n_y & n_x \end{array}\right)
+			\left(\bm{n}\cdot \nabla\right)^m\left(\bm{t}\cdot \nabla\right)^n
+			\left(\begin{array}{c} u \\ v \end{array}\right). \\
 	\end{gathered}
-	\end{equation}
-	\begin{equation}\label{TPSPy2}
+\end{equation}
+\textit{\textbf{Examples:}}\\
+\begin{equation}\label{du'dx'}
 	\begin{gathered}
-		\frac{\partial^2{P'}}{\partial{y'^2}} 
-			= \left( n_y^2\frac{\partial^2}{\partial x^2}-2n_xn_y\frac{\partial^2}{\partial x\partial y}
-				+n_x^2\frac{\partial^2}{\partial y^2}\right)P.
-	\end{gathered}
-	\end{equation}
-	\item \textbf{The partial derivatives of vector}\\
-	The procedure of transforming the partial derivatives of vector can be considered as two stages. The first is to transform the vector, and the second is to transform the partial derivative operator. 
-	\begin{equation}\label{TPVectorPxmyn}
-	\begin{gathered}
-		\frac{\partial^{m+n}P'}{\partial x'^my'^n} = \frac{\partial^{m+n}}{\partial x'^my'^n}P'
-		=\frac{\partial^{m+n}}{\partial x'^my'^n}\left(\begin{array}{cc}
-													n_x & n_y \\
-													-n_y & n_x
-				\end{array}\right)\left(\begin{array}{c}
-					P_1 \\ P_2
-				\end{array}\right) \\
-		=\left(\begin{array}{cc}
-			n_x & n_y \\
-			-n_y & n_x
-		 \end{array}\right)\frac{\partial^{m+n}}{\partial x'^my'^n}\left(\begin{array}{c}
-			P_1 \\ P_2
-		 \end{array}\right) \\
-	\end{gathered}
-	\end{equation}
-	Where $P$ and $P'$ denotes a very vector under origin and transformed coordinate system respectively. Let $P=V$ and $P'=V'$, 
-	\begin{equation}\label{TPVPx}
-	\begin{gathered}
-		\frac{\partial{V'}}{\partial{x'}}
+		\frac{\partial{\bm{u}'}}{\partial{x'}}
 			=\left(\begin{array}{cc}
 						n_x & n_y \\
 						-n_y & n_x
@@ -255,10 +270,10 @@ $\bm{n}$ and $\bm{t}$ denotes the normal and tangent vector respectively.
 			    -n_y^2\frac{\partial u}{\partial y}
 			    \end{array}\right),
 	\end{gathered}
-	\end{equation}
-	\begin{equation}\label{TPVPy}
+\end{equation}
+\begin{equation}\label{du'dy'}
 	\begin{gathered}
-	\frac{\partial{V'}}{\partial{y'}} 
+	\frac{\partial{\bm{u}'}}{\partial{y'}} 
 		= \left(\begin{array}{cc}
 				n_x & n_y \\
 				-n_y & n_x
@@ -275,10 +290,10 @@ $\bm{n}$ and $\bm{t}$ denotes the normal and tangent vector respectively.
 		\end{array}
 		\right),
 	\end{gathered}
-	\end{equation}
-	\begin{equation}\label{TPVPx2}
+\end{equation}
+\begin{equation}\label{du'2dx'2}
 	\begin{gathered}
-		\frac{\partial^2{V'}}{\partial{x'^2}} 
+		\frac{\partial^2{\bm{u}'}}{\partial{x'^2}} 
 			= \left(\begin{array}{cc}
 				n_x & n_y \\
 				-n_y & n_x
@@ -298,10 +313,10 @@ $\bm{n}$ and $\bm{t}$ denotes the normal and tangent vector respectively.
 	        \end{array}
 	        \right),
 	\end{gathered}
-	\end{equation}
-	\begin{equation}\label{TPVPxy}
+\end{equation}
+	\begin{equation}\label{du'2dx'dy'}
 	\begin{gathered}
-		\frac{\partial^2{V'}}{\partial{x'y'}} 
+		\frac{\partial^2{\bm{u}'}}{\partial{x'y'}} 
 			= \left(\begin{array}{cc}
 				n_x & n_y \\
 				-n_y & n_x
@@ -320,10 +335,10 @@ $\bm{n}$ and $\bm{t}$ denotes the normal and tangent vector respectively.
 			     +n_x\left(n_x^2-n_y^2\right)\frac{\partial^2 v}{\partial x\partial y}
 	   	     \end{array}\right),
 	\end{gathered}
-	\end{equation}
-	\begin{equation}\label{TPVPy2}
+\end{equation}
+\begin{equation}\label{du'2dy'2}
 	\begin{gathered}
-		\frac{\partial^2{V'}}{\partial{y'^2}} 
+		\frac{\partial^2{\bm{u}'}}{\partial{y'^2}} 
 			= \left(\begin{array}{cc}
 				n_x & n_y \\
 				-n_y & n_x
@@ -342,9 +357,8 @@ $\bm{n}$ and $\bm{t}$ denotes the normal and tangent vector respectively.
 		        -n_y^3\frac{\partial^2 u}{\partial x^2}
 		        \end{array}\right).
 	\end{gathered}
-	\end{equation}
-\end{enumerate}
-\section*{References}
+\end{equation}
+%\section*{References}
 
 %\bibliography{mybibfile}
 
