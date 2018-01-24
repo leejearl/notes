@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 744.09448819 1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="parallel.svg">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker5322"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path5324"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.4) rotate(180) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker5164"
+       style="overflow:visible;"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path5166"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.4) rotate(180) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker5094"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:collect="always">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path5096" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker5024"
+       style="overflow:visible;"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path5026"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.4) rotate(180) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker4966"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:collect="always">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path4968" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Mend"
+       style="overflow:visible;"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path4441"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.4) rotate(180) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker9029"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path9031"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.4) rotate(180) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker5077"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path5079"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.4) rotate(180) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker4839"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path4841"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.4) rotate(180) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Mstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4485"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.4) translate(10,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.8276618"
+     inkscape:cx="121.08468"
+     inkscape:cy="659.09979"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="993"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g4204"
+       transform="translate(-1155.0612,-160.69365)">
+      <rect
+         ry="25.254101"
+         y="460.33295"
+         x="509.87009"
+         height="101.49072"
+         width="213.85547"
+         id="rect4183"
+         style="opacity:0.23299997;fill:#d40000;fill-opacity:1;stroke:#000000;stroke-width:6;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4200"
+         y="525.63885"
+         x="575.45996"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="525.63885"
+           x="575.45996"
+           id="tspan4202"
+           sodipodi:role="line">GKS</tspan></text>
+      <flowRoot
+         xml:space="preserve"
+         id="flowRoot4451"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         transform="translate(345.55177,415.62869)"><flowRegion
+           id="flowRegion4453"><rect
+             id="rect4455"
+             width="328.63666"
+             height="140.15387"
+             x="108.74007"
+             y="27.789127" /></flowRegion><flowPara
+           id="flowPara4457" /></flowRoot>    </g>
+    <g
+       id="g4237"
+       transform="translate(-804.67647,-296.01463)">
+      <ellipse
+         ry="56.78648"
+         rx="112.96885"
+         cy="387.83957"
+         cx="598.07037"
+         id="path4155-3"
+         style="opacity:0.23299997;fill:#16cc26;fill-opacity:0.91823898;stroke:#000000;stroke-width:6;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4213"
+         y="402.40012"
+         x="558.68561"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="402.40012"
+           x="558.68561"
+           id="tspan4215"
+           sodipodi:role="line">SU2</tspan></text>
+    </g>
+    <g
+       id="g4232"
+       transform="translate(-258.5597,313.53386)">
+      <text
+         sodipodi:linespacing="125%"
+         id="text4209"
+         y="403.60834"
+         x="-9.4136009"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="403.60834"
+           x="-9.4136009"
+           id="tspan4211"
+           sodipodi:role="line">PETSc</tspan></text>
+      <ellipse
+         ry="56.78648"
+         rx="112.96885"
+         cy="389.04779"
+         cx="51.953587"
+         id="path4155-3-7"
+         style="opacity:0.23299997;fill:#16cc26;fill-opacity:0.91823898;stroke:#000000;stroke-width:6;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <g
+       id="g4334"
+       transform="translate(813.13405,-705.60223)">
+      <g
+         id="g4282"
+         transform="translate(-103.90718,-79.742716)">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="11.6089"
+           y="814.48871"
+           id="text4275"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan4277"
+             x="11.6089"
+             y="814.48871">非定常流</tspan><tspan
+             sodipodi:role="line"
+             x="11.6089"
+             y="865.16949"
+             id="tspan4279">1. 双时间步</tspan><tspan
+             sodipodi:role="line"
+             x="11.6089"
+             y="915.85028"
+             id="tspan4281">2. 圆柱绕流</tspan><tspan
+             sodipodi:role="line"
+             x="11.6089"
+             y="966.53107"
+             id="tspan4283">3. 方柱绕流</tspan><tspan
+             sodipodi:role="line"
+             x="11.6089"
+             y="1017.2118"
+             id="tspan4285">4. 抖振研究</tspan></text>
+        <rect
+           style="opacity:0.23299997;fill:#16cc26;fill-opacity:0.91823898;stroke:#000000;stroke-width:6;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect4244-5-5-6-2-3"
+           width="248.89395"
+           height="303.26404"
+           x="-7.2493253"
+           y="749.09827"
+           ry="25.254101" />
+      </g>
+    </g>
+    <g
+       id="g4345"
+       transform="translate(681.43773,-401.13003)">
+      <text
+         sodipodi:linespacing="125%"
+         id="text4263"
+         y="688.87347"
+         x="-597.6344"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="688.87347"
+           x="-597.6344"
+           id="tspan4265"
+           sodipodi:role="line">湍流模型</tspan><tspan
+           id="tspan4267"
+           y="739.55426"
+           x="-597.6344"
+           sodipodi:role="line">1. SA模型</tspan><tspan
+           id="tspan4269"
+           y="790.23505"
+           x="-597.6344"
+           sodipodi:role="line">2. SST模型</tspan><tspan
+           id="tspan4271"
+           y="840.91583"
+           x="-597.6344"
+           sodipodi:role="line">3. 湍流平板验证</tspan><tspan
+           id="tspan4273"
+           y="891.59656"
+           x="-597.6344"
+           sodipodi:role="line">4. RAE2822翼型绕流</tspan></text>
+      <rect
+         ry="25.254101"
+         y="636.73352"
+         x="-619.81836"
+         height="276.68307"
+         width="436.16849"
+         id="rect4343"
+         style="opacity:0.23299997;fill:#16cc26;fill-opacity:0.91823898;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <g
+       id="g4356"
+       transform="translate(674.18841,-491.74675)">
+      <text
+         sodipodi:linespacing="125%"
+         id="text4248"
+         y="405.64957"
+         x="-586.94635"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="405.64957"
+           x="-586.94635"
+           id="tspan4250"
+           sodipodi:role="line">隐式算法</tspan><tspan
+           id="tspan4253"
+           y="456.33035"
+           x="-586.94635"
+           sodipodi:role="line">1. LU-SGS</tspan><tspan
+           id="tspan4255"
+           y="506.33035"
+           x="-586.94635"
+           sodipodi:role="line">2. GMRES</tspan><tspan
+           id="tspan4259"
+           y="556.33032"
+           x="-586.94635"
+           sodipodi:role="line">3. 算例验证</tspan></text>
+      <rect
+         ry="25.254101"
+         y="356.42578"
+         x="-602.90326"
+         height="218.68835"
+         width="244.06104"
+         id="rect4354"
+         style="opacity:0.23299997;fill:#16cc26;fill-opacity:0.91823898;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker9029)"
+       d="M -473.17177,299.6393 -267.82329,139.54981"
+       id="path4914"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#g4204"
+       inkscape:connection-end="#g4237" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m -490.47743,401.13002 235.53816,250.12517"
+       id="path4916"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#g4204"
+       inkscape:connection-end="#g4232" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker4966)"
+       d="M -109.14003,63.115146 71.285151,9.9687544"
+       id="path4918"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#g4237"
+       inkscape:connection-end="#g4356" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker5024)"
+       d="M -132.62863,134.74107 64.499273,249.09976"
+       id="path4920"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#g4237"
+       inkscape:connection-end="#g4345" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker5322)"
+       d="m -93.637264,702.58165 160.089522,0"
+       id="path4922"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#g4232"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker5094)"
+       d="M 315.34619,1.2704883 701.97754,87.598507"
+       id="path4926"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#g4356"
+       inkscape:connection-end="#g4334" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker5164)"
+       d="M 497.78786,270.80686 701.97754,174.23981"
+       id="path4928"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-end="#g4334"
+       inkscape:connection-start="#g4345" />
+    <g
+       id="g4426"
+       transform="translate(-286.34884,-4.8328919)">
+      <rect
+         ry="8.6479549"
+         y="660.26459"
+         x="363.64581"
+         height="93.091743"
+         width="314.19656"
+         id="rect4244-5-5-6-2-6"
+         style="opacity:0.23299997;fill:#16cc26;fill-opacity:0.91823898;stroke:#000000;stroke-width:3.52500153;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4297-7"
+         y="722.05048"
+         x="399.01291"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           id="tspan4422"
+           y="722.05048"
+           x="399.01291"
+           sodipodi:role="line">GKS显式算法</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,2262 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 744.09448819 1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="GKSBluePrint.svg"
+   inkscape:export-filename="/home/leejearl/Desktop/GKS/GKSBluePrint.svg.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker7035"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path7037" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker6971"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path6973" />
+    </marker>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6949"
+       id="pattern6955"
+       patternTransform="matrix(6.8484496,0,0,20.505168,46.222742,-244.77041)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6951"
+       id="pattern6953"
+       patternTransform="matrix(6.8484496,0,0,20.505168,46.222738,-704.89678)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6945"
+       id="pattern6951"
+       patternTransform="matrix(6.8484496,0,0,20.505168,45.172224,-704.89678)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6947"
+       id="pattern6949"
+       patternTransform="matrix(6.8484496,0,0,20.505168,47.273256,-244.77041)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6113"
+       id="pattern6947"
+       patternTransform="matrix(6.8484496,0,0,20.505168,49.37429,-275.2354)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6943"
+       id="pattern6945"
+       patternTransform="matrix(6.8484496,0,0,20.505168,49.374291,-706.99781)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6941"
+       id="pattern6943"
+       patternTransform="matrix(6.8484496,0,0,20.505168,43.07119,-454.87378)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6471"
+       id="pattern6941"
+       patternTransform="matrix(6.8484496,0,0,20.505168,-27.838061,-218.88975)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6111"
+       id="pattern6113"
+       patternTransform="scale(6.8484496,20.505168)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6109"
+       id="pattern6111"
+       patternTransform="scale(6.8484496,20.505168)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6107"
+       id="pattern6109"
+       patternTransform="scale(7.373708,20.505168)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6105"
+       id="pattern6107"
+       patternTransform="scale(8.4242248,20.505168)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6103"
+       id="pattern6105"
+       patternTransform="scale(10,21.555685)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6101"
+       id="pattern6103"
+       patternTransform="scale(11.050517,21.555685)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6099"
+       id="pattern6101"
+       patternTransform="scale(11.575775,21.555685)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6097"
+       id="pattern6099"
+       patternTransform="scale(11.575775,21.555685)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6095"
+       id="pattern6097"
+       patternTransform="scale(12.101034,21.555685)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6093"
+       id="pattern6095"
+       patternTransform="scale(13.15155,21.555685)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6091"
+       id="pattern6093"
+       patternTransform="scale(13.15155,21.555685)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6089"
+       id="pattern6091"
+       patternTransform="scale(12.626292,22.606202)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6087"
+       id="pattern6089"
+       patternTransform="scale(12.101034,23.656719)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6085"
+       id="pattern6087"
+       patternTransform="scale(10.525258,24.707235)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6083"
+       id="pattern6085"
+       patternTransform="scale(10,24.707235)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6081"
+       id="pattern6083"
+       patternTransform="scale(9.4747416,24.707235)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6079"
+       id="pattern6081"
+       patternTransform="scale(8.9494832,24.707235)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6077"
+       id="pattern6079"
+       patternTransform="scale(8.4242248,24.707235)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6075"
+       id="pattern6077"
+       patternTransform="scale(7.8989664,25.757752)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6073"
+       id="pattern6075"
+       patternTransform="scale(6.8484496,26.808269)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6071"
+       id="pattern6073"
+       patternTransform="scale(5.2726743,27.858786)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6069"
+       id="pattern6071"
+       patternTransform="scale(4.2221575,29.959819)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6067"
+       id="pattern6069"
+       patternTransform="scale(3.1716407,31.010336)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6065"
+       id="pattern6067"
+       patternTransform="scale(2.6463823,32.060853)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6063"
+       id="pattern6065"
+       patternTransform="scale(2.1211239,33.11137)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6061"
+       id="pattern6063"
+       patternTransform="scale(1.5958655,36.26292)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6059"
+       id="pattern6061"
+       patternTransform="scale(1.5958655,37.313437)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6057"
+       id="pattern6059"
+       patternTransform="scale(1.5958655,38.363954)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6055"
+       id="pattern6057"
+       patternTransform="scale(1.5958655,41.515504)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6053"
+       id="pattern6055"
+       patternTransform="scale(1.5958655,42.566021)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6051"
+       id="pattern6053"
+       patternTransform="scale(1.5958655,43.616538)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6049"
+       id="pattern6051"
+       patternTransform="scale(1.5958655,44.667055)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6047"
+       id="pattern6049"
+       patternTransform="scale(1.5958655,48.869122)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6045"
+       id="pattern6047"
+       patternTransform="scale(1.5958655,49.919639)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6043"
+       id="pattern6045"
+       patternTransform="scale(1.5958655,52.020672)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6041"
+       id="pattern6043"
+       patternTransform="scale(1.5958655,53.071189)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6039"
+       id="pattern6041"
+       patternTransform="scale(1.5958655,54.121706)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6037"
+       id="pattern6039"
+       patternTransform="scale(1.5958655,55.172223)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6035"
+       id="pattern6037"
+       patternTransform="scale(2.1211239,56.22274)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6033"
+       id="pattern6035"
+       patternTransform="scale(2.6463823,59.37429)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6031"
+       id="pattern6033"
+       patternTransform="scale(3.1716407,62.525841)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6029"
+       id="pattern6031"
+       patternTransform="scale(3.1716407,64.626874)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6027"
+       id="pattern6029"
+       patternTransform="scale(3.1716407,67.778425)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6025"
+       id="pattern6027"
+       patternTransform="scale(3.6968991,69.879458)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6023"
+       id="pattern6025"
+       patternTransform="scale(3.6968991,73.031009)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6021"
+       id="pattern6023"
+       patternTransform="scale(3.6968991,75.132042)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6019"
+       id="pattern6021"
+       patternTransform="scale(3.6968991,76.182559)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6017"
+       id="pattern6019"
+       patternTransform="scale(4.7474159,77.233076)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6015"
+       id="pattern6017"
+       patternTransform="scale(5.2726743,79.33411)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6013"
+       id="pattern6015"
+       patternTransform="scale(5.2726743,80.384626)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6011"
+       id="pattern6013"
+       patternTransform="scale(5.2726743,84.586694)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6009"
+       id="pattern6011"
+       patternTransform="scale(5.7979328,85.63721)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6007"
+       id="pattern6009"
+       patternTransform="scale(6.3231912,89.839278)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6005"
+       id="pattern6007"
+       patternTransform="scale(6.3231912,90.889794)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6003"
+       id="pattern6005"
+       patternTransform="scale(6.3231912,94.041345)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6001"
+       id="pattern6003"
+       patternTransform="scale(6.8484496,95.091862)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5999"
+       id="pattern6001"
+       patternTransform="scale(6.8484496,96.142379)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5997"
+       id="pattern5999"
+       patternTransform="scale(7.373708,98.243412)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5995"
+       id="pattern5997"
+       patternTransform="scale(7.8989664,99.293929)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5993"
+       id="pattern5995"
+       patternTransform="scale(8.4242248,101.39496)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5991"
+       id="pattern5993"
+       patternTransform="scale(8.4242248,102.44548)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5989"
+       id="pattern5991"
+       patternTransform="scale(8.9494832,104.54651)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5987"
+       id="pattern5989"
+       patternTransform="scale(8.9494832,105.59703)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5985"
+       id="pattern5987"
+       patternTransform="scale(9.4747416,106.64755)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5983"
+       id="pattern5985"
+       patternTransform="scale(9.4747416,107.69806)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5981"
+       id="pattern5983"
+       patternTransform="scale(9.4747416,110.84961)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5979"
+       id="pattern5981"
+       patternTransform="scale(9.4747416,110.84961)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5977"
+       id="pattern5979"
+       patternTransform="scale(9.4747416,107.69806)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5975"
+       id="pattern5977"
+       patternTransform="scale(9.4747416,107.69806)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5973"
+       id="pattern5975"
+       patternTransform="scale(9.4747416,106.64755)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5971"
+       id="pattern5973"
+       patternTransform="scale(9.4747416,103.496)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5969"
+       id="pattern5971"
+       patternTransform="scale(9.4747416,102.44548)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5967"
+       id="pattern5969"
+       patternTransform="scale(9.4747416,98.243412)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5965"
+       id="pattern5967"
+       patternTransform="scale(9.4747416,92.990828)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5963"
+       id="pattern5965"
+       patternTransform="scale(9.4747416,90.889794)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5961"
+       id="pattern5963"
+       patternTransform="scale(9.4747416,86.687727)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5959"
+       id="pattern5961"
+       patternTransform="scale(10.525258,84.586694)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5957"
+       id="pattern5959"
+       patternTransform="scale(10.525258,80.384626)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5955"
+       id="pattern5957"
+       patternTransform="scale(10.525258,77.233076)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5953"
+       id="pattern5955"
+       patternTransform="scale(10.525258,76.182559)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5951"
+       id="pattern5953"
+       patternTransform="scale(11.050517,75.132042)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5949"
+       id="pattern5951"
+       patternTransform="scale(11.050517,71.980492)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5947"
+       id="pattern5949"
+       patternTransform="scale(11.050517,69.879458)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5945"
+       id="pattern5947"
+       patternTransform="scale(11.050517,68.828941)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5943"
+       id="pattern5945"
+       patternTransform="scale(11.050517,66.727908)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5941"
+       id="pattern5943"
+       patternTransform="scale(11.050517,65.677391)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5939"
+       id="pattern5941"
+       patternTransform="scale(11.050517,64.626874)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5937"
+       id="pattern5939"
+       patternTransform="scale(11.050517,62.525841)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5935"
+       id="pattern5937"
+       patternTransform="scale(11.050517,61.475324)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5933"
+       id="pattern5935"
+       patternTransform="scale(11.050517,60.424807)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5931"
+       id="pattern5933"
+       patternTransform="scale(11.050517,59.37429)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5929"
+       id="pattern5931"
+       patternTransform="scale(11.050517,58.323773)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5927"
+       id="pattern5929"
+       patternTransform="scale(11.050517,56.22274)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5925"
+       id="pattern5927"
+       patternTransform="scale(11.050517,55.172223)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5923"
+       id="pattern5925"
+       patternTransform="scale(11.050517,54.121706)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5921"
+       id="pattern5923"
+       patternTransform="scale(11.050517,53.071189)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5919"
+       id="pattern5921"
+       patternTransform="scale(11.050517,50.970156)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5917"
+       id="pattern5919"
+       patternTransform="scale(11.050517,48.869122)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5915"
+       id="pattern5917"
+       patternTransform="scale(11.050517,45.717572)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5913"
+       id="pattern5915"
+       patternTransform="scale(11.050517,43.616538)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5911"
+       id="pattern5913"
+       patternTransform="scale(11.050517,39.414471)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5909"
+       id="pattern5911"
+       patternTransform="scale(11.050517,33.11137)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5907"
+       id="pattern5909"
+       patternTransform="scale(11.050517,27.858786)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5905"
+       id="pattern5907"
+       patternTransform="scale(11.050517,22.606202)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5903"
+       id="pattern5905"
+       patternTransform="scale(11.050517,21.555685)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5901"
+       id="pattern5903"
+       patternTransform="scale(11.050517,17.353618)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#Strips1_1"
+       id="pattern5901"
+       patternTransform="scale(11.050517,14.202067)" />
+    <linearGradient
+       id="linearGradient5871"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop5873" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient5845"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop5847" />
+    </linearGradient>
+    <pattern
+       inkscape:isstock="true"
+       inkscape:stockid="Stripes 1:1"
+       id="Strips1_1"
+       patternTransform="translate(0,0) scale(10,10)"
+       height="1"
+       width="2"
+       patternUnits="userSpaceOnUse"
+       inkscape:collect="always">
+      <rect
+         id="rect5084"
+         height="2"
+         width="1"
+         y="-0.5"
+         x="0"
+         style="fill:black;stroke:none" />
+    </pattern>
+    <linearGradient
+       id="linearGradient5819"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#00131f;stop-opacity:1;"
+         offset="0"
+         id="stop5821" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4311"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#00131f;stop-opacity:1;"
+         offset="0"
+         id="stop4313" />
+    </linearGradient>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker4839"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path4841" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker4773"
+       style="overflow:visible;"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path4775"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.4) rotate(180) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker4715"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:collect="always">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path4717" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker4663"
+       style="overflow:visible;"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path4665"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.4) rotate(180) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker4617"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:collect="always">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path4619" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker4577"
+       style="overflow:visible;"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path4579"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.4) rotate(180) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker4543"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:collect="always">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path4545" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Mend"
+       style="overflow:visible;"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path4270"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.4) rotate(180) translate(10,0)" />
+    </marker>
+    <pattern
+       patternTransform="matrix(6.8484496,0,0,20.505168,-27.838061,-218.88975)"
+       id="pattern6471"
+       xlink:href="#pattern6113-5"
+       inkscape:collect="always" />
+    <pattern
+       inkscape:isstock="true"
+       inkscape:stockid="Stripes 1:1"
+       id="Strips1_1-5"
+       patternTransform="translate(0,0) scale(10,10)"
+       height="1"
+       width="2"
+       patternUnits="userSpaceOnUse"
+       inkscape:collect="always">
+      <rect
+         id="rect5084-3"
+         height="2"
+         width="1"
+         y="-0.5"
+         x="0"
+         style="fill:black;stroke:none" />
+    </pattern>
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6111-6"
+       id="pattern6113-5"
+       patternTransform="scale(6.8484496,20.505168)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6109-2"
+       id="pattern6111-6"
+       patternTransform="scale(6.8484496,20.505168)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6107-9"
+       id="pattern6109-2"
+       patternTransform="scale(7.373708,20.505168)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6105-1"
+       id="pattern6107-9"
+       patternTransform="scale(8.4242248,20.505168)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6103-2"
+       id="pattern6105-1"
+       patternTransform="scale(10,21.555685)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6101-7"
+       id="pattern6103-2"
+       patternTransform="scale(11.050517,21.555685)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6099-0"
+       id="pattern6101-7"
+       patternTransform="scale(11.575775,21.555685)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6097-9"
+       id="pattern6099-0"
+       patternTransform="scale(11.575775,21.555685)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6095-3"
+       id="pattern6097-9"
+       patternTransform="scale(12.101034,21.555685)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6093-6"
+       id="pattern6095-3"
+       patternTransform="scale(13.15155,21.555685)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6091-0"
+       id="pattern6093-6"
+       patternTransform="scale(13.15155,21.555685)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6089-6"
+       id="pattern6091-0"
+       patternTransform="scale(12.626292,22.606202)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6087-2"
+       id="pattern6089-6"
+       patternTransform="scale(12.101034,23.656719)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6085-6"
+       id="pattern6087-2"
+       patternTransform="scale(10.525258,24.707235)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6083-1"
+       id="pattern6085-6"
+       patternTransform="scale(10,24.707235)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6081-8"
+       id="pattern6083-1"
+       patternTransform="scale(9.4747416,24.707235)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6079-7"
+       id="pattern6081-8"
+       patternTransform="scale(8.9494832,24.707235)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6077-9"
+       id="pattern6079-7"
+       patternTransform="scale(8.4242248,24.707235)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6075-2"
+       id="pattern6077-9"
+       patternTransform="scale(7.8989664,25.757752)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6073-0"
+       id="pattern6075-2"
+       patternTransform="scale(6.8484496,26.808269)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6071-2"
+       id="pattern6073-0"
+       patternTransform="scale(5.2726743,27.858786)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6069-3"
+       id="pattern6071-2"
+       patternTransform="scale(4.2221575,29.959819)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6067-7"
+       id="pattern6069-3"
+       patternTransform="scale(3.1716407,31.010336)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6065-5"
+       id="pattern6067-7"
+       patternTransform="scale(2.6463823,32.060853)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6063-9"
+       id="pattern6065-5"
+       patternTransform="scale(2.1211239,33.11137)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6061-2"
+       id="pattern6063-9"
+       patternTransform="scale(1.5958655,36.26292)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6059-2"
+       id="pattern6061-2"
+       patternTransform="scale(1.5958655,37.313437)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6057-8"
+       id="pattern6059-2"
+       patternTransform="scale(1.5958655,38.363954)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6055-9"
+       id="pattern6057-8"
+       patternTransform="scale(1.5958655,41.515504)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6053-7"
+       id="pattern6055-9"
+       patternTransform="scale(1.5958655,42.566021)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6051-3"
+       id="pattern6053-7"
+       patternTransform="scale(1.5958655,43.616538)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6049-6"
+       id="pattern6051-3"
+       patternTransform="scale(1.5958655,44.667055)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6047-1"
+       id="pattern6049-6"
+       patternTransform="scale(1.5958655,48.869122)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6045-2"
+       id="pattern6047-1"
+       patternTransform="scale(1.5958655,49.919639)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6043-9"
+       id="pattern6045-2"
+       patternTransform="scale(1.5958655,52.020672)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6041-3"
+       id="pattern6043-9"
+       patternTransform="scale(1.5958655,53.071189)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6039-1"
+       id="pattern6041-3"
+       patternTransform="scale(1.5958655,54.121706)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6037-9"
+       id="pattern6039-1"
+       patternTransform="scale(1.5958655,55.172223)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6035-4"
+       id="pattern6037-9"
+       patternTransform="scale(2.1211239,56.22274)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6033-7"
+       id="pattern6035-4"
+       patternTransform="scale(2.6463823,59.37429)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6031-8"
+       id="pattern6033-7"
+       patternTransform="scale(3.1716407,62.525841)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6029-4"
+       id="pattern6031-8"
+       patternTransform="scale(3.1716407,64.626874)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6027-5"
+       id="pattern6029-4"
+       patternTransform="scale(3.1716407,67.778425)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6025-0"
+       id="pattern6027-5"
+       patternTransform="scale(3.6968991,69.879458)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6023-3"
+       id="pattern6025-0"
+       patternTransform="scale(3.6968991,73.031009)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6021-6"
+       id="pattern6023-3"
+       patternTransform="scale(3.6968991,75.132042)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6019-1"
+       id="pattern6021-6"
+       patternTransform="scale(3.6968991,76.182559)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6017-0"
+       id="pattern6019-1"
+       patternTransform="scale(4.7474159,77.233076)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6015-6"
+       id="pattern6017-0"
+       patternTransform="scale(5.2726743,79.33411)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6013-3"
+       id="pattern6015-6"
+       patternTransform="scale(5.2726743,80.384626)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6011-2"
+       id="pattern6013-3"
+       patternTransform="scale(5.2726743,84.586694)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6009-0"
+       id="pattern6011-2"
+       patternTransform="scale(5.7979328,85.63721)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6007-6"
+       id="pattern6009-0"
+       patternTransform="scale(6.3231912,89.839278)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6005-1"
+       id="pattern6007-6"
+       patternTransform="scale(6.3231912,90.889794)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6003-5"
+       id="pattern6005-1"
+       patternTransform="scale(6.3231912,94.041345)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6001-5"
+       id="pattern6003-5"
+       patternTransform="scale(6.8484496,95.091862)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5999-4"
+       id="pattern6001-5"
+       patternTransform="scale(6.8484496,96.142379)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5997-7"
+       id="pattern5999-4"
+       patternTransform="scale(7.373708,98.243412)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5995-6"
+       id="pattern5997-7"
+       patternTransform="scale(7.8989664,99.293929)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5993-5"
+       id="pattern5995-6"
+       patternTransform="scale(8.4242248,101.39496)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5991-6"
+       id="pattern5993-5"
+       patternTransform="scale(8.4242248,102.44548)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5989-9"
+       id="pattern5991-6"
+       patternTransform="scale(8.9494832,104.54651)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5987-3"
+       id="pattern5989-9"
+       patternTransform="scale(8.9494832,105.59703)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5985-7"
+       id="pattern5987-3"
+       patternTransform="scale(9.4747416,106.64755)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5983-4"
+       id="pattern5985-7"
+       patternTransform="scale(9.4747416,107.69806)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5981-5"
+       id="pattern5983-4"
+       patternTransform="scale(9.4747416,110.84961)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5979-2"
+       id="pattern5981-5"
+       patternTransform="scale(9.4747416,110.84961)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5977-5"
+       id="pattern5979-2"
+       patternTransform="scale(9.4747416,107.69806)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5975-4"
+       id="pattern5977-5"
+       patternTransform="scale(9.4747416,107.69806)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5973-7"
+       id="pattern5975-4"
+       patternTransform="scale(9.4747416,106.64755)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5971-4"
+       id="pattern5973-7"
+       patternTransform="scale(9.4747416,103.496)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5969-4"
+       id="pattern5971-4"
+       patternTransform="scale(9.4747416,102.44548)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5967-3"
+       id="pattern5969-4"
+       patternTransform="scale(9.4747416,98.243412)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5965-0"
+       id="pattern5967-3"
+       patternTransform="scale(9.4747416,92.990828)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5963-7"
+       id="pattern5965-0"
+       patternTransform="scale(9.4747416,90.889794)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5961-8"
+       id="pattern5963-7"
+       patternTransform="scale(9.4747416,86.687727)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5959-6"
+       id="pattern5961-8"
+       patternTransform="scale(10.525258,84.586694)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5957-8"
+       id="pattern5959-6"
+       patternTransform="scale(10.525258,80.384626)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5955-8"
+       id="pattern5957-8"
+       patternTransform="scale(10.525258,77.233076)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5953-4"
+       id="pattern5955-8"
+       patternTransform="scale(10.525258,76.182559)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5951-3"
+       id="pattern5953-4"
+       patternTransform="scale(11.050517,75.132042)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5949-1"
+       id="pattern5951-3"
+       patternTransform="scale(11.050517,71.980492)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5947-4"
+       id="pattern5949-1"
+       patternTransform="scale(11.050517,69.879458)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5945-9"
+       id="pattern5947-4"
+       patternTransform="scale(11.050517,68.828941)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5943-2"
+       id="pattern5945-9"
+       patternTransform="scale(11.050517,66.727908)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5941-0"
+       id="pattern5943-2"
+       patternTransform="scale(11.050517,65.677391)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5939-6"
+       id="pattern5941-0"
+       patternTransform="scale(11.050517,64.626874)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5937-8"
+       id="pattern5939-6"
+       patternTransform="scale(11.050517,62.525841)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5935-9"
+       id="pattern5937-8"
+       patternTransform="scale(11.050517,61.475324)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5933-2"
+       id="pattern5935-9"
+       patternTransform="scale(11.050517,60.424807)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5931-6"
+       id="pattern5933-2"
+       patternTransform="scale(11.050517,59.37429)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5929-6"
+       id="pattern5931-6"
+       patternTransform="scale(11.050517,58.323773)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5927-4"
+       id="pattern5929-6"
+       patternTransform="scale(11.050517,56.22274)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5925-9"
+       id="pattern5927-4"
+       patternTransform="scale(11.050517,55.172223)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5923-5"
+       id="pattern5925-9"
+       patternTransform="scale(11.050517,54.121706)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5921-0"
+       id="pattern5923-5"
+       patternTransform="scale(11.050517,53.071189)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5919-4"
+       id="pattern5921-0"
+       patternTransform="scale(11.050517,50.970156)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5917-8"
+       id="pattern5919-4"
+       patternTransform="scale(11.050517,48.869122)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5915-7"
+       id="pattern5917-8"
+       patternTransform="scale(11.050517,45.717572)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5913-1"
+       id="pattern5915-7"
+       patternTransform="scale(11.050517,43.616538)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5911-7"
+       id="pattern5913-1"
+       patternTransform="scale(11.050517,39.414471)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5909-2"
+       id="pattern5911-7"
+       patternTransform="scale(11.050517,33.11137)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5907-7"
+       id="pattern5909-2"
+       patternTransform="scale(11.050517,27.858786)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5905-2"
+       id="pattern5907-7"
+       patternTransform="scale(11.050517,22.606202)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5903-2"
+       id="pattern5905-2"
+       patternTransform="scale(11.050517,21.555685)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5901-6"
+       id="pattern5903-2"
+       patternTransform="scale(11.050517,17.353618)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#Strips1_1-5"
+       id="pattern5901-6"
+       patternTransform="scale(11.050517,14.202067)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6111-6"
+       id="pattern6248"
+       patternTransform="scale(6.8484496,20.505168)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6109-2"
+       id="pattern6250"
+       patternTransform="scale(6.8484496,20.505168)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6107-9"
+       id="pattern6252"
+       patternTransform="scale(7.373708,20.505168)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6105-1"
+       id="pattern6254"
+       patternTransform="scale(8.4242248,20.505168)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6103-2"
+       id="pattern6256"
+       patternTransform="scale(10,21.555685)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6101-7"
+       id="pattern6258"
+       patternTransform="scale(11.050517,21.555685)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6099-0"
+       id="pattern6260"
+       patternTransform="scale(11.575775,21.555685)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6097-9"
+       id="pattern6262"
+       patternTransform="scale(11.575775,21.555685)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6095-3"
+       id="pattern6264"
+       patternTransform="scale(12.101034,21.555685)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6093-6"
+       id="pattern6266"
+       patternTransform="scale(13.15155,21.555685)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6091-0"
+       id="pattern6268"
+       patternTransform="scale(13.15155,21.555685)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6089-6"
+       id="pattern6270"
+       patternTransform="scale(12.626292,22.606202)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6087-2"
+       id="pattern6272"
+       patternTransform="scale(12.101034,23.656719)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6085-6"
+       id="pattern6274"
+       patternTransform="scale(10.525258,24.707235)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6083-1"
+       id="pattern6276"
+       patternTransform="scale(10,24.707235)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6081-8"
+       id="pattern6278"
+       patternTransform="scale(9.4747416,24.707235)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6079-7"
+       id="pattern6280"
+       patternTransform="scale(8.9494832,24.707235)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6077-9"
+       id="pattern6282"
+       patternTransform="scale(8.4242248,24.707235)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6075-2"
+       id="pattern6284"
+       patternTransform="scale(7.8989664,25.757752)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6073-0"
+       id="pattern6286"
+       patternTransform="scale(6.8484496,26.808269)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6071-2"
+       id="pattern6288"
+       patternTransform="scale(5.2726743,27.858786)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6069-3"
+       id="pattern6290"
+       patternTransform="scale(4.2221575,29.959819)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6067-7"
+       id="pattern6292"
+       patternTransform="scale(3.1716407,31.010336)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6065-5"
+       id="pattern6294"
+       patternTransform="scale(2.6463823,32.060853)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6063-9"
+       id="pattern6296"
+       patternTransform="scale(2.1211239,33.11137)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6061-2"
+       id="pattern6298"
+       patternTransform="scale(1.5958655,36.26292)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6059-2"
+       id="pattern6300"
+       patternTransform="scale(1.5958655,37.313437)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6057-8"
+       id="pattern6302"
+       patternTransform="scale(1.5958655,38.363954)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6055-9"
+       id="pattern6304"
+       patternTransform="scale(1.5958655,41.515504)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6053-7"
+       id="pattern6306"
+       patternTransform="scale(1.5958655,42.566021)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6051-3"
+       id="pattern6308"
+       patternTransform="scale(1.5958655,43.616538)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6049-6"
+       id="pattern6310"
+       patternTransform="scale(1.5958655,44.667055)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6047-1"
+       id="pattern6312"
+       patternTransform="scale(1.5958655,48.869122)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6045-2"
+       id="pattern6314"
+       patternTransform="scale(1.5958655,49.919639)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6043-9"
+       id="pattern6316"
+       patternTransform="scale(1.5958655,52.020672)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6041-3"
+       id="pattern6318"
+       patternTransform="scale(1.5958655,53.071189)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6039-1"
+       id="pattern6320"
+       patternTransform="scale(1.5958655,54.121706)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6037-9"
+       id="pattern6322"
+       patternTransform="scale(1.5958655,55.172223)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6035-4"
+       id="pattern6324"
+       patternTransform="scale(2.1211239,56.22274)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6033-7"
+       id="pattern6326"
+       patternTransform="scale(2.6463823,59.37429)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6031-8"
+       id="pattern6328"
+       patternTransform="scale(3.1716407,62.525841)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6029-4"
+       id="pattern6330"
+       patternTransform="scale(3.1716407,64.626874)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6027-5"
+       id="pattern6332"
+       patternTransform="scale(3.1716407,67.778425)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6025-0"
+       id="pattern6334"
+       patternTransform="scale(3.6968991,69.879458)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6023-3"
+       id="pattern6336"
+       patternTransform="scale(3.6968991,73.031009)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6021-6"
+       id="pattern6338"
+       patternTransform="scale(3.6968991,75.132042)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6019-1"
+       id="pattern6340"
+       patternTransform="scale(3.6968991,76.182559)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6017-0"
+       id="pattern6342"
+       patternTransform="scale(4.7474159,77.233076)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6015-6"
+       id="pattern6344"
+       patternTransform="scale(5.2726743,79.33411)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6013-3"
+       id="pattern6346"
+       patternTransform="scale(5.2726743,80.384626)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6011-2"
+       id="pattern6348"
+       patternTransform="scale(5.2726743,84.586694)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6009-0"
+       id="pattern6350"
+       patternTransform="scale(5.7979328,85.63721)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6007-6"
+       id="pattern6352"
+       patternTransform="scale(6.3231912,89.839278)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6005-1"
+       id="pattern6354"
+       patternTransform="scale(6.3231912,90.889794)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6003-5"
+       id="pattern6356"
+       patternTransform="scale(6.3231912,94.041345)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern6001-5"
+       id="pattern6358"
+       patternTransform="scale(6.8484496,95.091862)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5999-4"
+       id="pattern6360"
+       patternTransform="scale(6.8484496,96.142379)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5997-7"
+       id="pattern6362"
+       patternTransform="scale(7.373708,98.243412)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5995-6"
+       id="pattern6364"
+       patternTransform="scale(7.8989664,99.293929)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5993-5"
+       id="pattern6366"
+       patternTransform="scale(8.4242248,101.39496)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5991-6"
+       id="pattern6368"
+       patternTransform="scale(8.4242248,102.44548)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5989-9"
+       id="pattern6370"
+       patternTransform="scale(8.9494832,104.54651)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5987-3"
+       id="pattern6372"
+       patternTransform="scale(8.9494832,105.59703)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5985-7"
+       id="pattern6374"
+       patternTransform="scale(9.4747416,106.64755)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5983-4"
+       id="pattern6376"
+       patternTransform="scale(9.4747416,107.69806)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5981-5"
+       id="pattern6378"
+       patternTransform="scale(9.4747416,110.84961)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5979-2"
+       id="pattern6380"
+       patternTransform="scale(9.4747416,110.84961)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5977-5"
+       id="pattern6382"
+       patternTransform="scale(9.4747416,107.69806)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5975-4"
+       id="pattern6384"
+       patternTransform="scale(9.4747416,107.69806)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5973-7"
+       id="pattern6386"
+       patternTransform="scale(9.4747416,106.64755)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5971-4"
+       id="pattern6388"
+       patternTransform="scale(9.4747416,103.496)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5969-4"
+       id="pattern6390"
+       patternTransform="scale(9.4747416,102.44548)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5967-3"
+       id="pattern6392"
+       patternTransform="scale(9.4747416,98.243412)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5965-0"
+       id="pattern6394"
+       patternTransform="scale(9.4747416,92.990828)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5963-7"
+       id="pattern6396"
+       patternTransform="scale(9.4747416,90.889794)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5961-8"
+       id="pattern6398"
+       patternTransform="scale(9.4747416,86.687727)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5959-6"
+       id="pattern6400"
+       patternTransform="scale(10.525258,84.586694)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5957-8"
+       id="pattern6402"
+       patternTransform="scale(10.525258,80.384626)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5955-8"
+       id="pattern6404"
+       patternTransform="scale(10.525258,77.233076)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5953-4"
+       id="pattern6406"
+       patternTransform="scale(10.525258,76.182559)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5951-3"
+       id="pattern6408"
+       patternTransform="scale(11.050517,75.132042)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5949-1"
+       id="pattern6410"
+       patternTransform="scale(11.050517,71.980492)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5947-4"
+       id="pattern6412"
+       patternTransform="scale(11.050517,69.879458)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5945-9"
+       id="pattern6414"
+       patternTransform="scale(11.050517,68.828941)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5943-2"
+       id="pattern6416"
+       patternTransform="scale(11.050517,66.727908)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5941-0"
+       id="pattern6418"
+       patternTransform="scale(11.050517,65.677391)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5939-6"
+       id="pattern6420"
+       patternTransform="scale(11.050517,64.626874)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5937-8"
+       id="pattern6422"
+       patternTransform="scale(11.050517,62.525841)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5935-9"
+       id="pattern6424"
+       patternTransform="scale(11.050517,61.475324)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5933-2"
+       id="pattern6426"
+       patternTransform="scale(11.050517,60.424807)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5931-6"
+       id="pattern6428"
+       patternTransform="scale(11.050517,59.37429)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5929-6"
+       id="pattern6430"
+       patternTransform="scale(11.050517,58.323773)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5927-4"
+       id="pattern6432"
+       patternTransform="scale(11.050517,56.22274)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5925-9"
+       id="pattern6434"
+       patternTransform="scale(11.050517,55.172223)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5923-5"
+       id="pattern6436"
+       patternTransform="scale(11.050517,54.121706)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5921-0"
+       id="pattern6438"
+       patternTransform="scale(11.050517,53.071189)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5919-4"
+       id="pattern6440"
+       patternTransform="scale(11.050517,50.970156)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5917-8"
+       id="pattern6442"
+       patternTransform="scale(11.050517,48.869122)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5915-7"
+       id="pattern6444"
+       patternTransform="scale(11.050517,45.717572)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5913-1"
+       id="pattern6446"
+       patternTransform="scale(11.050517,43.616538)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5911-7"
+       id="pattern6448"
+       patternTransform="scale(11.050517,39.414471)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5909-2"
+       id="pattern6450"
+       patternTransform="scale(11.050517,33.11137)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5907-7"
+       id="pattern6452"
+       patternTransform="scale(11.050517,27.858786)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5905-2"
+       id="pattern6454"
+       patternTransform="scale(11.050517,22.606202)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5903-2"
+       id="pattern6456"
+       patternTransform="scale(11.050517,21.555685)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#pattern5901-6"
+       id="pattern6458"
+       patternTransform="scale(11.050517,17.353618)" />
+    <pattern
+       inkscape:collect="always"
+       xlink:href="#Strips1_1-5"
+       id="pattern6460"
+       patternTransform="scale(11.050517,14.202067)" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.95191242"
+     inkscape:cx="509.21174"
+     inkscape:cy="619.13519"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="993"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:connector-spacing="3" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="opacity:1;fill:none;fill-opacity:0.91758237;stroke:#00131f;stroke-width:4.44225502;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4176"
+       width="69.634682"
+       height="200.12277"
+       x="443.18564"
+       y="-155.03552"
+       transform="matrix(0,1,-1,0,0,0)" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:0.91758237;stroke:#00131f;stroke-width:4.44225502;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4176-3"
+       width="69.634682"
+       height="200.12277"
+       x="444.23618"
+       y="-451.52454"
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:connector-avoid="true" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:0.91758237;stroke:#00131f;stroke-width:4.44225502;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4176-7"
+       width="69.634682"
+       height="200.12277"
+       x="448.43823"
+       y="-807.62592"
+       transform="matrix(0,1,-1,0,0,0)" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:0.91758237;stroke:#00131f;stroke-width:4.44225502;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4176-6"
+       width="69.634682"
+       height="200.12277"
+       x="2.431572"
+       y="-801.19385"
+       transform="scale(-1,-1)" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:0.91758237;stroke:#00131f;stroke-width:4.44225502;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4176-6-2"
+       width="69.634682"
+       height="200.12277"
+       x="-173.55441"
+       y="-801.19385"
+       transform="scale(-1,-1)" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:0.91758237;stroke:#00131f;stroke-width:4.44225502;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4176-3-3"
+       width="69.634682"
+       height="200.12277"
+       x="644.8399"
+       y="-451.52454"
+       transform="matrix(0,1,-1,0,0,0)" />
+    <flowRoot
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="flowRoot4907"
+       transform="translate(59.455431,10.788548)"><flowRegion
+         id="flowRegion4909"><use
+           x="0"
+           y="0"
+           xlink:href="#rect4176-3"
+           id="use4911"
+           width="100%"
+           height="100%" /></flowRegion><flowPara
+         id="flowPara4913">湍流</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="flowRoot4918"
+       transform="translate(20.082027,10.529067)"><flowRegion
+         id="flowRegion4920"><use
+           x="0"
+           y="0"
+           xlink:href="#rect4176"
+           id="use4922"
+           width="100%"
+           height="100%" /></flowRegion><flowPara
+         id="flowPara4924">浸入边界</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="flowRoot4929"
+       transform="translate(19.100623,10.869067)"><flowRegion
+         id="flowRegion4931"><use
+           x="0"
+           y="0"
+           xlink:href="#rect4176-7"
+           id="use4933"
+           width="100%"
+           height="100%" /></flowRegion><flowPara
+         id="flowPara4935">隐式算法</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="flowRoot4943"
+       transform="translate(14.097289,-1.1232784)"><flowRegion
+         id="flowRegion4945"><use
+           x="0"
+           y="0"
+           xlink:href="#rect4176-6"
+           id="use4947"
+           width="100%"
+           height="100%" /></flowRegion><flowPara
+         id="flowPara4949">不 可 压 流</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="flowRoot4957"
+       transform="translate(14.197348,-0.248669)"><flowRegion
+         id="flowRegion4959"><use
+           x="0"
+           y="0"
+           xlink:href="#rect4176-6-2"
+           id="use4961"
+           width="100%"
+           height="100%" /></flowRegion><flowPara
+         id="flowPara4963">超 声 速 流</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="flowRoot4980"
+       transform="translate(28.086212,7.9356557)"><flowRegion
+         id="flowRegion4982"><use
+           x="0"
+           y="0"
+           xlink:href="#rect4176-3-3"
+           id="use4984"
+           width="100%"
+           height="100%" /></flowRegion><flowPara
+         id="flowPara4986">SA/SST</flowPara></flowRoot>    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker4663)"
+       d="m 351.98842,513.87086 0,130.96904"
+       id="path5009"
+       inkscape:connector-type="orthogonal"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect4176-3"
+       inkscape:connection-end="#rect4176-3-3" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:0.91758237;stroke:#00131f;stroke-width:4.44225502;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4176-6-27"
+       width="69.634682"
+       height="200.12277"
+       x="-742.3819"
+       y="-801.19385"
+       transform="scale(-1,-1)" />
+    <flowRoot
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="flowRoot5073"
+       transform="translate(13.747654,1.0113729)"><flowRegion
+         id="flowRegion5075"><use
+           x="0"
+           y="0"
+           xlink:href="#rect4176-6-27"
+           id="use5077"
+           width="100%"
+           height="100%" /></flowRegion><flowPara
+         id="flowPara5079">非</flowPara><flowPara
+         id="flowPara5081">定</flowPara><flowPara
+         id="flowPara5083">常</flowPara><flowPara
+         id="flowPara5085">流</flowPara></flowRoot>    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker4617)"
+       d="m 708.61509,518.07291 0,82.99817"
+       id="path5087"
+       inkscape:connector-type="orthogonal"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect4176-7"
+       inkscape:connection-end="#rect4176-6-27" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:0.91758237;stroke:#00131f;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4227"
+       width="132.36511"
+       height="76.687729"
+       x="285.28061"
+       y="312.79837" />
+    <flowRoot
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="flowRoot4233"
+       transform="translate(20.117462,10.934006)"><flowRegion
+         id="flowRegion4235"><use
+           x="0"
+           y="0"
+           xlink:href="#rect4227"
+           id="use4237"
+           width="100%"
+           height="100%" /></flowRegion><flowPara
+         id="flowPara4239">GKS</flowPara></flowRoot>    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend)"
+       d="m 285.28061,351.14223 -230.306474,0 0,92.04341"
+       id="path4241"
+       inkscape:connector-type="orthogonal"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect4227"
+       inkscape:connection-end="#rect4176" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 356.19046,351.14223 0,0"
+       id="path4243"
+       inkscape:connector-type="orthogonal"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect4227"
+       inkscape:connection-end="#rect4227" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker4543)"
+       d="m 351.98842,389.4861 0,54.75008"
+       id="path4245"
+       inkscape:connector-type="orthogonal"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect4227"
+       inkscape:connection-end="#rect4176-3" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker4577)"
+       d="m 417.64572,351.14223 289.91881,0 0,97.296"
+       id="path4247"
+       inkscape:connector-type="orthogonal"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect4227"
+       inkscape:connection-end="#rect4176-7" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker4773)"
+       d="M 40.472112,512.82032 -2.431572,615.82609"
+       id="path4253"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect4176"
+       inkscape:connection-end="#rect4176-6" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker4715)"
+       d="m 68.240234,512.82032 35.679496,93.64209"
+       id="path4255"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect4176"
+       inkscape:connection-end="#rect4176-6-2" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker4839)"
+       d="m 451.52454,679.65725 221.22268,0"
+       id="path4831"
+       inkscape:connector-type="orthogonal"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect4176-3-3"
+       inkscape:connection-end="#rect4176-6-27" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:url(#pattern6955);stroke-width:4.44199991;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4176-36-7"
+       width="69.634682"
+       height="200.12277"
+       x="76.281799"
+       y="-228.22444"
+       transform="matrix(0,1,-1,0,0,0)" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3447"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion3449"><rect
+           id="rect3451"
+           width="314.10452"
+           height="221.65904"
+           x="-244.77042"
+           y="11.300045" /></flowRegion><flowPara
+         id="flowPara3453"></flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:url(#Strips1_1);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="flowRoot3455"
+       transform="translate(19.400602,9.7979197)"><flowRegion
+         id="flowRegion3457"
+         style="stroke:url(#Strips1_1)"><use
+           x="0"
+           y="0"
+           xlink:href="#rect4176-36-7"
+           id="use3459"
+           width="100%"
+           height="100%"
+           style="stroke:url(#Strips1_1)" /></flowRegion><flowPara
+         id="flowPara3461"
+         style="stroke:url(#Strips1_1)">高阶格式</flowPara></flowRoot>    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:url(#pattern6953);stroke-width:4.44199991;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4176-36-7-1"
+       width="69.634682"
+       height="200.12277"
+       x="76.281799"
+       y="-688.35083"
+       transform="matrix(0,1,-1,0,0,0)" />
+    <flowRoot
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:url(#Strips1_1-5);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="flowRoot3455-0"
+       transform="translate(529.75679,11.981592)"><flowRegion
+         id="flowRegion3457-6"
+         style="stroke:url(#Strips1_1-5)"><use
+           x="0"
+           y="0"
+           xlink:href="#rect4176-36-7-1"
+           id="use3459-1"
+           width="100%"
+           height="100%"
+           style="stroke:url(#Strips1_1-5)"
+           transform="translate(-509.81637,-0.16236097)" /></flowRegion><flowPara
+         id="flowPara3461-5"
+         style="stroke:url(#Strips1_1-5)">大涡模拟</flowPara></flowRoot>    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:12,2;marker-end:url(#marker7035);stroke-dashoffset:0"
+       d="M 315.79378,312.79837 160.55189,145.91648"
+       id="path6961"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect4227"
+       inkscape:connection-end="#rect4176-36-7" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:12,2;marker-end:url(#marker6971);stroke-dashoffset:0"
+       d="M 389.29318,312.79837 553.93869,145.91648"
+       id="path6963"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:connection-start="#rect4227"
+       inkscape:connection-end="#rect4176-36-7-1" />
+    <g
+       id="g7145"
+       transform="matrix(0.80543907,0,0,0.79288055,-425.04051,130.68525)">
+      <path
+         d="M 1118.8004,95.866646 A 152.85019,57.253166 0 0 1 968.52458,153.11169 152.85019,57.253166 0 0 1 813.18672,97.794949 152.85019,57.253166 0 0 1 958.22996,38.686556 152.85019,57.253166 0 0 1 1118.4536,92.012228"
+         sodipodi:end="6.215812"
+         sodipodi:start="0"
+         sodipodi:ry="57.253166"
+         sodipodi:rx="152.85019"
+         sodipodi:cy="95.866646"
+         sodipodi:cx="965.9502"
+         sodipodi:type="arc"
+         id="path7135"
+         style="opacity:1;fill:none;fill-opacity:0.91758237;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:12, 2;stroke-dashoffset:0;stroke-opacity:1"
+         sodipodi:open="true" />
+      <flowRoot
+         transform="translate(0,33.185535)"
+         id="flowRoot7137"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><flowRegion
+           id="flowRegion7139"><use
+             height="100%"
+             width="100%"
+             id="use7141"
+             xlink:href="#path7135"
+             y="0"
+             x="0" /></flowRegion><flowPara
+           id="flowPara7143">研究中</flowPara></flowRoot>    </g>
+  </g>
+</svg>
