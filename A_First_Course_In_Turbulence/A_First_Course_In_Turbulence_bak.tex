@@ -1,0 +1,471 @@
+\documentclass[review]{elsarticle}
+\usepackage{subfigure}
+\usepackage{lineno,hyperref}
+\usepackage{indentfirst}
+\usepackage{bm}
+\usepackage{threeparttable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{mathrsfs}
+\numberwithin{equation}{section}
+\modulolinenumbers[5]
+
+\journal{Journal of \LaTeX\ Templates}
+
+%%%%%%%%%%%%%%%%%%%%%%%
+%% Elsevier bibliography styles
+%%%%%%%%%%%%%%%%%%%%%%%
+%% To change the style, put a % in front of the second line of the current style and
+%% remove the % from the second line of the style you would like to use.
+%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Numbered
+%\bibliographystyle{model1-num-names}
+
+%% Numbered without titles
+%\bibliographystyle{model1a-num-names}
+
+%% Harvard
+%\bibliographystyle{model2-names.bst}\biboptions{authoryear}
+
+%% Vancouver numbered
+%\usepackage{numcompress}\bibliographystyle{model3-num-names}
+
+%% Vancouver name/year
+%\usepackage{numcompress}\bibliographystyle{model4-names}\biboptions{authoryear}
+
+%% APA style
+%\bibliographystyle{model5-names}\biboptions{authoryear}
+
+%% AMA style
+%\usepackage{numcompress}\bibliographystyle{model6-num-names}
+
+%% `Elsevier LaTeX' style
+\bibliographystyle{elsarticle-num}
+%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{frontmatter}
+	
+\title{A FIRST COURSE IN TURBULENCE}
+\author{Ji Li}
+\ead{leejearl@mail.nwpu.edu.cn}
+
+
+\address{National Key Laboratory of Science and Technology on Aerodynamic Design and Research, Northwestern Polytechnical 
+University, Xi'an, Shaanxi 710072, China}
+
+\begin{abstract}
+	Notes.
+\end{abstract}
+\end{frontmatter}
+
+\section{Introduction}
+	\subsection{The nature of turbulence}
+		\subsubsection {Irregularity}
+		\subsubsection {Diffusivity}
+		\subsubsection {Large Reynolds numbers}
+		\subsubsection {Three dimensional vorticity fluctuations}
+		\subsubsection {Disspation}
+		\subsubsection {Continuum}
+		\subsubsection {Turbulent flows are flows}
+			Turbulence is not a feature of fluids but of fluid flows.
+	\subsection{Methods of analysis}
+		\subsubsection {Dimensional analysis}
+		\subsubsection {Asymptotic invariance}
+		\subsubsection {Local invariance}
+	\subsection{The Origin of turbulence}
+	\subsection{Diffusivity of turbulence}
+		The ability of turbulence transferring and mixing , which is the outstanding characteristic of turbulence motion, 
+		is stronger than molecular diffusion.
+		\subsubsection{Diffusion in a problem with an imposed length scale}
+			Diffusion of laminar flow and turbulent flow are discussed in this section with an imposed length scale.
+			Diffusion equation of temperature read as
+			\begin{equation}\label{1_diffusionEquation}
+				\frac{\partial \theta}{\partial {t}}=\gamma \frac{\partial ^2\theta}{\partial x_i\partial x_i}.
+			\end{equation}
+			Where $\theta$ is the temperature and $\gamma$ is the thermal diffusivity. Since $\nu / \gamma = 0.73$, $\gamma$ 
+			can be estimated as $\nu$. $\nu$ is the kinematic viscosity.
+			Relation used in this section is
+			\begin{equation}
+				\gamma \sim \nu
+			\end{equation}
+			Dimensionally, Eq. \ref{1_diffusionEquation} can be interpreted as
+			\begin{equation}
+				\frac{\Delta \theta}{T_m} \sim \gamma \frac{\Delta \theta}{L^2} \Rightarrow T_m \sim \frac{L^2}{\gamma}.
+			\end{equation}
+			Where $T_m$ denotes the time scale of molecular motion and $L$ is the length scale.
+			For turbulent flow with length scale $L$, 
+			\begin{equation}
+				T_t = \frac{L}{u}.
+			\end{equation}
+			Where $T_t$ means the time scale of turbulence and $u$ is the velocity scale of velocity fluctuations in turbulence.
+			Therefore, the relation of $T_m$ and $T_t$ can be written as
+			\begin{equation}\label{TtTm}
+				\frac{T_t}{T_m} \sim \frac{\gamma}{Lu} \sim \frac{\nu}{Lu} \sim \frac{1}{R_e}.
+			\end{equation}
+			Eq. \ref{TtTm} shows that Reynolds number of a turbulent flow can be interpreted as ratio of a turbulence time scale to 
+			a molecular time scale.
+			\begin{center}
+				\fbox{%  
+					\parbox{\textwidth}{%  
+						\centering {\textbf{Remarks}}
+						\begin{itemize}
+							\item $\gamma$ is of order $\nu$.
+							\item $R_e$ in Eq. \ref{TtTm} is often very large. 
+							\item With imposed length scale, Eq. \ref{TtTm} can be interpreted as time scale of molecular diffusion $T_m$ is 
+								larger than the time scale of turbulent flow $T_t$. So the rate of transfer or mixing momentum of turbulent 
+								motion is much greater than molecular diffusion.  
+						\end{itemize}
+			    	}  
+				}%  			
+			\end{center}
+
+
+		\subsubsection 	{Eddy diffusivity}
+			If we use an eddy diffusivity concept. Diffusion equation can be written as
+			\begin{equation}
+				\frac{\partial \theta}{\partial {t}}=K \frac{\partial ^2\theta}{\partial x_i\partial x_i}.
+			\end{equation} 
+			Where $K$ is the representation diffusivity(often called "eddy" diffusivity). Therefore, 
+			\begin{equation}
+				\frac{L^2}{K} \sim T = T_t \sim \frac{L}{u} \Rightarrow K \sim Lu.
+			\end{equation}
+			The ratio of $K$ to $\gamma$ is
+			\begin{equation}
+				\frac{K}{\gamma} \sim \frac{K}{\nu}=\frac{Lu}{\nu}=R_e.
+			\end{equation}
+			\begin{center}
+				\fbox{%  
+					\parbox{\textwidth}{%  
+						\centering {\textbf{Remarks}}
+						\begin{itemize}
+							\item Since $Re$ is large, $K$ is often very larger than $\gamma$.
+							\item $K$ can be interpreted as apparent viscosity, and $\gamma$ is of order $\nu$.
+						\end{itemize}
+			    	}  
+				}%  			
+			\end{center}			
+		\subsubsection{Diffusion in a problem with imposed time scale}
+			With a imposed time scale, Eq. \ref{1_diffusionEquation} may be interpreted as
+			\begin{equation} 
+				T \sim \frac{L_m^2}{\gamma}.
+			\end{equation}
+			With the relation
+			\begin{equation}
+				T \sim \frac{L_t}{u},
+			\end{equation}
+			the ratio of $L_t$ and $L_m$ can be read as
+			\begin{equation}
+				\frac{L_t}{u} \sim \frac{L_m^2}{\gamma} \Rightarrow \frac{L_t}{L_m} = R_e^{\frac{1}{2}}.
+			\end{equation}
+	\subsection {Length scale in turbulent flows}
+		\subsubsection{Laminar boundary laryer}
+			For steady flow of an incompressible fluid with constant viscosity, the Navier-Stokes equations are
+			\begin{equation}\label{NS1}
+				u_j\frac{\partial u_i}{\partial x_j} = -\frac{1}{\rho}\frac{\partial p}{\partial x_i} 
+					+ \nu \frac{\partial ^2u_i}{\partial x_j\partial x_j}.			
+			\end{equation}
+			If we estimate the inertia terms as $U^2/L$ and the viscous term as $\nu U/L^2$, the ratio of the two 
+			is $UL/\nu$. It indicates that the viscous term could be negligible at large Reynolds number. In fact, 
+			it is impossible to neglect viscous terms everywhere in the flow filed. To retain the viscous terms, a 
+			different length scale $l$ must be selected. With such a length scale, the relation of inertia terms and 
+			viscous terms reads
+			\begin{equation}
+				\nu U/L^2 \sim UL/\nu \Rightarrow \frac{l}{L} \sim \left( \frac{\nu}{UL}\right)^{1/2}=R^{-1/2}_e. 
+			\end{equation}
+			The viscous length $l$ is a transverse length scale, and it represents the width of boundary layer.
+		\subsubsection{Diffusive and convective length scale}
+			Taking fluid flow over flat plate as the example, the boundary layer is much smaller than the scale $L$ 
+			of the flow field. $L$ is the length scale of convection along the flow and $l$ is the length scale of 
+			diffusion across the flow. 
+		\subsubsection{Turbulent boundary layer}
+			The turbulent eddies transfer momentum deficit away from the surface. The length scale of turbulent diffusion 
+			is $l$. The velocity scale of velocity fluctuations is $u$. The length scale and velocity scale of flow field 
+			are $L$ and $U$. Equating the time scale of diffusion and flow field, wen can write the scale relations for 
+			boundary layers as
+			\begin{equation}
+				l/u \sim L/U \Rightarrow l/L \sim u/U.
+			\end{equation}
+			\begin{center}
+				\fbox{%  
+					\parbox{\textwidth}{%  
+						\centering {\textbf{Remarks}}
+						\begin{itemize}
+							\item In this section, the length scale of turbulent eddies is the length scale of larger eddies.
+							\item The time scale and length scale are not unique in turbulent flow.
+						\end{itemize}
+			    	}  
+				}%  			
+			\end{center}
+						
+		\subsubsection{Laminar and turbulent friction}
+			For a steady laminar boundary layer in two-dimensional flow on a plat with length $L$, the drag $D$ per unit span 
+			is equal to the total rate of loss of momentum. The mass flow deficit at the end of the plate is proportional to 
+			$\rho UL$. So, we may put 
+			\begin{equation} 
+				D \sim \rho U^2L \Rightarrow C_d \sim \frac{D}{\frac{1}{2}\rho U^2L}=2\frac{l}{L}=2R_e^{-1/2}.
+			\end{equation} 
+			For a turbulent flow, the mass flow deficit at the end of the plate is proportional to $\rho ul$, so that the rate of 
+			loss of momentum is proportional to $(\rho ul)U$. Consequently,
+			\begin{equation}
+				D \sim \rho uUl \Rightarrow C_d \sim \frac{D}{\frac{1}{2}\rho U^2L}=2\frac{l}{L}\frac{u}{U}=2\left( \frac{u}{U}\right)^2.
+			\end{equation}	 
+			Experiment evidence shows that the turbulence level $u/U$ varies very slowly with Reynolds number, so that the drag 
+			coefficient of a tubulent boundary should be very much larger than the drag coefficient of a laminar boundary layer.
+		\subsubsection{Small scales in turbulence}
+			We have suggested that the large eddies scale are as big as the width of flow. The Kolmogorov length and time scales 
+			are the smallest scales occurring in turbulent motion. The Kolmogorov scales are
+			\begin{equation}\label{KolmogorovScales}
+				\eta \equiv \left( \nu ^3 / \epsilon \right)^{1/4}, \tau \equiv \left( \nu / \epsilon \right)^{1/2},
+				\upsilon \equiv \left( \nu \epsilon \right)^{1/4}.
+			\end{equation}
+			The Reynolds number which defined with Eq. \ref{KolmogorovScales} is
+			\begin{equation}\label{KolmogorovRe}
+				R_e = \frac{\eta\upsilon}{\nu} \equiv 1.
+			\end{equation}
+			Eq. \ref{KolmogorovRe} shows that the small-scale motion is quite viscous.
+	 
+			
+		\subsubsection{\underline{A inviscid estimate for the dissipation rate}}
+			To be continued.
+		\subsubsection{Scale relations}
+			The scales of smallest eddies are very mush smaller than those of largest eddies. Most of the energy is associated with 
+			large-scale motions, and most of the vorticity is associated with small-scale motions.
+		\subsubsection{Molecular and turbulent scales}
+			The scales of molecular motion are shown in Table \ref{scales}.
+			
+\section{Turbulent transport of momentum and heat}
+	Turbulent velocity fluctuations can generate large momentum fluxes between different parts of a flow. A momentum flux can 
+	be thought of as a stress.
+	\subsection{The Reynolds equations}	
+	\subsubsection{The Reynolds decompositions}
+		The mean value of fluctuating quantity itself is zero by definition; for example,
+		\begin{equation}\label{meanfluctuating}
+			\bar{u_i} = \lim _{T \rightarrow \infty} \frac{1}{T} \int_{t_0}^{t_0 + T} (\tilde{u_i} - U_i)dt \equiv 0.
+		\end{equation}
+		For a time average to make sense, the integrals in Eq. \ref{meanfluctuating} has to be independent of $t_0$. In 
+		other words, the mean flow has to be steady.
+		\begin{equation}
+			\frac{\partial U_i}{\partial t} = 0.
+		\end{equation}
+		
+	\subsubsection{Correlated variables}
+		The correlation coefficient is defined as 
+		\begin{equation} \label{cij}
+			c_{ij} = \overline{u_i u_j}/\left( \overline{u_i^2} \cdotp \overline{u_j^2}\right)^{1/2}.
+		\end{equation}
+	\subsubsection{Equations for mean flow}
+		The equations of motion for mean flow read as
+		\begin{equation}
+			U_j\frac{\partial U_i}{\partial x_j} + \overline{u_j\frac{\partial u_i}{\partial x_j}} = \frac{1}{\rho}\frac{\partial}{\partial x_j}{\sum}_{ij}.
+		\end{equation}
+		We may write 
+		\begin{equation}\label{turbulent-momentum-transfer}
+			\overline{u_j\frac{\partial u_i}{\partial x_j}} = \frac{\partial}{\partial x_j}\overline{u_iu_j}.
+		\end{equation}
+		Eq. \ref{turbulent-momentum-transfer} represents the mean transport of fluctuating momentum by turbulent velocity fluctuations.
+		Reynolds momentum equation reads as
+		\begin{equation} \label{ReMomEq}
+			U_j\frac{\partial U_i}{\partial x_j} = \frac{1}{\rho}\frac{\partial}{\partial x_j}({\sum}_{ij} - \overline{\rho u_iu_j}).
+		\end{equation}
+	\subsubsection{The Reynolds stress}
+		The contribution of the turbulent motion to the mean stress tensor is designated by the symbol $\tau_{ij}$:
+		\begin{equation}
+			\tau_{ij} = - \overline{\rho u_iu_j}.
+		\end{equation}
+	\subsubsection{\underline{Turbulent transport of heat}}
+		To be continued.
+	\subsection{Elements of the kinetic theory of gases}
+	\subsubsection{Pure shear flow}
+		Let us take a steady pure shear flow, homogeneous in the $x_1$, $x_3$ plane. The only nonvanishing velocity 
+		component is take to be $U_1$; it is a function of $x_2$ only. If the flow is laminar, the only nonvanishing 
+		components of the viscous shear stress are 
+		\begin{equation}
+			\sigma_{12} = \sigma_{21} = \mu \partial U_1 / \partial x_2.
+		\end{equation}
+		The shear stress $\sigma_{12}$ can be resulted from the molecular transport of momentum in the $x_2$ direction.
+		Let $v_1$ and $v_2$ be the $x_1$ and $x_2$ components of the instantaneous velocity of a molecular relative to 
+		the mean flow. $m$ represents the mass of a molecular. $N$ denotes the number of molecular per unit volume. Now, 
+		$Nm$ is the mass per unit volume $\rho$. The transport of momentum $mv_1$ of a molecular in direction $x_2$ with 
+		velocity $v_2$ reads
+		\begin{equation}
+			\sigma_{12} = -Nm\overline{v_1v_2} = -\rho\overline{v_1v_2}.
+		\end{equation}
+
+	\subsubsection{Molecular collisions}
+		Suppose the mean free path is $\xi$. If a molecular traveling from position $x_2 = -\xi$ to $x_2 = 0$, it brings 
+		a momentum deficit 
+		\begin{equation}\label{MomDeficit1}
+			M = m[U_1(0) - U_1(-\xi)] \approx m\xi\frac{\partial U_1}{\partial x_2}+\frac{1}{2}m\xi^2\frac{\partial^2U_1}{\partial x_2^2}.
+		\end{equation}  
+		A local length scale $l$ of the flow $U_1(x_2)$ is defined as
+		\begin{equation}\label{locallengthscale}
+			l \equiv \frac{\partial U_1/\partial x_2}{\partial^2U_1/\partial x_2^2}.
+		\end{equation}
+		If $l \gg \frac{1}{2}\xi$, Eq. \ref{MomDeficit1} may be approximate by
+		\begin{equation}
+			M = m\xi\frac{\partial U_1}{\partial x_2}.
+		\end{equation}
+		We can write
+		\begin{equation}
+			\sigma_{12} = \alpha MNa = \alpha Nma\xi\partial U_1/\partial x_2,
+		\end{equation}
+		where $a$ represents the sound speed.
+	\subsubsection{\underline{Characteristic times and lengths}}
+		To be continued.
+	\subsubsection{\underline{The correlation between $v_1$ and $v_2$}}
+		To be continued.
+	\subsubsection{\underline{Thermal diffusivity}}
+		To be continued.
+	
+	\subsection{Estimates of the Reynolds stress}
+	\subsubsection{Reynolds stress and vortex stretching}
+		\begin{itemize}
+			\item The existence of a Reynolds stress requires that the velocity fluctuations $u_1$ and $u_2$ be correlated.
+			\item Because eddies are continuously losing energy to smaller eddies, they need shear to maintain their energy.
+			\item The most powerful eddies are those that can absorb energy from the shear flow more effectively than others.
+			\item \underline{To be continued.}
+		\end{itemize}
+	\subsubsection{The mixing-length model}
+		Using the Reynolds decomposition of velocities, we can write the momentum deficit as 
+		\begin{equation}\label{MomDeficit2}
+			\Delta M = \rho [U_1(x_2)-U_1(0)] + \rho[u_1(x_2,t)-u_1(0,0)].
+		\end{equation}
+		If the contribution of the turbulence to the momentum deficit can be neglected and if the difference $U_1(x_2)-U_1(0)$ 
+		may be approximated by $x_2\partial U_1/\partial x_2$, where the gradient is taken at $x_2 = 0$, $\Delta M$ may be 
+		approximated by 
+		\begin{equation}
+			\Delta M = \rho x_2\partial U_1/\partial x_2.
+		\end{equation}  
+		The volume transported per unit area and unit time in the $x_2$ direction is $\tilde{u}_2$ of the moving point. Now 
+		$\tilde{u}_2=dx_2/dt$, so that the average momentum flux at $x_2=0$ may be written as
+		\begin{equation}
+			\tau_{12} = \rho x_2 \frac{\partial U_1}{\partial x_2}\overline{\tilde{u}_2} = 
+			 \rho x_2 \frac{\partial U_1}{\partial x_2}\frac{d\overline{x}_2}{dt} = 
+			 \frac{1}{2}\rho \frac{\partial U_1}{\partial x_2}\frac{d\overline{x_2^2}}{dt}.
+		\end{equation}
+		If we assume that $u_2$ and $x_2$ become essentially uncorrelated at values of $x_2$ comparable to some transverse 
+		length scale $l$, we may estimate that $\overline{x_2u_2}$ is of order $u_2'l$. Here $u_2'$ is the rms velocity in 
+		the $x_2$ direction; the dispersion length scale $l$ is called the \textit{mixing length}.
+	\subsubsection{\underline{The length-scale problem}}
+		To be continued.
+	\subsubsection{\underline{A neglected transport term}}
+		To be continued.
+	\subsubsection{The mixing length as an integral scale}
+	\subsubsection{The gradient-transport fallacy}
+	\subsubsection{Further estimates}
+	\subsection{Turbulent heat transfer}
+
+\section{The dynamics of turbulence}
+	\subsection{Kinetic energy of mean flow}
+		The energy equation reads
+		\begin{equation}\label{enerEqMeanFlow1}
+			\underbrace {\rho U_j\frac{\partial}{\partial x_j}(\frac{1}{2}U_iU_i)}_{a}=\underbrace {\frac{\partial}{\partial x_j}(T_{ij}U_i)}_{b} 
+			- \underbrace {T_{ij}S_{ij}}_{c}.
+		\end{equation}
+		\begin{itemize}
+			\item a is transport of mean-flow energy.
+			\item b represents transport of mean-flow energy by the stress $T_{ij}$. 
+			\item c is called deformation work, and it represents kinetic energy of the mean flow that is lost to or retrieved from the agency 
+			that generates the stress.
+		\end{itemize}
+		Here, $T_{ij} = -P\delta_{ij}+2\mu S_{ij} - \rho \overline{u_iu_j}$. So, Eq. \ref{enerEqMeanFlow1} can be rewritten as 
+		\begin{equation}\label{enerEqMeanFlow2}
+			\underbrace {\rho U_j\frac{\partial}{\partial x_j}(\frac{1}{2}U_iU_i)}_{a}=
+			\frac{\partial}{\partial x_j}(
+				\underbrace{-\frac{P}{\rho}U_j}_b + 
+				\underbrace{2\nu U_iS_{ij}}_c - 
+				\underbrace{\overline{u_iu_j}U_i}_d
+			) +	\underbrace {2\nu S_{ij}S_{ij}}_{e} + \underbrace{\overline{u_iu_j}S_{ij}}_f. 
+		\end{equation}
+		\begin{itemize}
+			\item a is transport of mean-flow energy.
+			\item b is called pressure work.
+			\item c is transport of mean-flow energy by viscous stresses.
+			\item d is transport of mean-flow energy by Reynolds stresses.
+			\item e is turbulence production.
+			\item f is energy transport by turbulent motion.
+		\end{itemize}
+		Terms $c$ and $e$ in Eq. \ref{enerEqMeanFlow2} are negligible in most flows. This can be demonstrated easily by invoking 
+		the scale relation as follow
+		\begin{equation}
+			S_{ij} \sim \frac{\partial U_i}{\partial x_j} \sim \frac{u}{l} \Rightarrow u \sim lS_{ij}, 
+		\end{equation}
+		\begin{equation}
+			-\overline{u_iu_j} \sim u^2 \sim ulS_{ij}.
+		\end{equation}
+		So, the ratio of terms $d$ and $c$ can be estimated as
+		\begin{equation}
+			\frac{d}{c} \sim \frac{\overline{u_iu_j}U_i}{\nu U_iS_{ij}} \sim c\frac{ulU_iS_{ij}}{\nu U_iS_{ij}} \sim \frac{ul}{\nu}
+			= Re.
+		\end{equation}
+		We see that $Re$ tends to be very large, so that $c$ could be negligible compared with $d$.
+		Also the ratio of terms $f$ and $e$ can be estimated as
+		\begin{equation}
+			\frac{f}{e} \sim \frac{\overline{u_iu_j}S_{ij}}{\nu S_{ij}S_{ij}} \sim \frac{ulS_{ij}S_{ij}}{\nu S_{ij}S_{ij}}
+			\sim \frac{ul}{\nu} = R_e, 
+		\end{equation} 
+		and $e$ can be negligible compared with $f$.
+		\subsubsection{Pure shear flow}
+		\subsubsection{The effect of viscosity}
+	\subsection{Kinetic energy of the turbulence}
+		The energy equation of turbulence reads
+		\begin{equation}\label{turbEnerBuffet}
+			\underbrace {U_j\frac{\partial}{\partial x_j}(\frac{1}{2}\overline{u_iu_i})}_a = -\frac{\partial}{\partial x_j}(
+				\underbrace{\frac{1}{\rho}\overline{u_jp}}_b + 
+				\underbrace{\frac{1}{2}\overline{u_iu_iu_j}}_c - 
+				\underbrace{2\nu \overline{u_is_{ij}}}_d
+			) - \underbrace{\overline{u_iu_jS_{ij}}}_e - \underbrace{2\nu \overline{s_{ij}s_{ij}}}_f.
+		\end{equation} 
+		\subsubsection{Production equals dissipation}
+			In a steady, homogeneous, pure shear flow, Eq. \ref{turbEnerBuffet} reduces to
+			\begin{equation}
+				-\overline{u_iu_j}S_{ij} = 2\nu\overline{s_{ij}s_{ij}}.
+			\end{equation}
+			\begin{equation}
+				\overline{s_{ij}s_{ij}} \gg S_{ij}S_{ij}.
+			\end{equation}
+		\subsubsection{Taylor microscale}
+		\subsubsection{Scale relations}
+		\subsubsection{Spetral energy transfer}
+		\subsubsection{Further estimates}
+	
+	
+	
+	
+	
+	
+\newpage
+\appendix{APPENDIX A}	
+\begin {center}
+	\begin{table}[!htb]
+		\centering
+		\begin{tabular}{|c|c|c|c|c|}
+			\hline
+		 	& Length Scale& Velocity Scale & Time Scale & Reynolds number\\
+			\hline
+			molecular & $\xi$ & $a$ & $\frac{\xi}{a}$ & $R=\frac{a\xi}{\nu}=\frac{3}{2}$\\
+			\hline
+			laminar boundary layer & $l$ & $U$ & $\frac{l}{U}$ & $R=\frac{lU}{\nu}$ \\
+			\hline
+			turbulence boundary layer & $l$ & $u$ & $\frac{l}{u}$ & $R=\frac{lu}{\nu}\gg 1$\\
+			\hline
+			Kolmogorovmicroscales & $\eta$ & $v$ & $\tau$ & $R=\frac{\eta v}{\nu}=1$\\
+			\hline
+		\end{tabular}
+		\caption{\label{scales} Length scales ,Velocity scales and Time scales.}
+	\end{table}
+\end{center}
+
+\appendix{APPENDIX B}
+	\begin{equation}
+		u^2 \equiv \frac{1}{3}\overline{u_iu_i}
+	\end{equation}
+\end{document}
