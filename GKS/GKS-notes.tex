@@ -1,0 +1,201 @@
+\documentclass[review]{elsarticle}
+
+\usepackage{natbib}
+\usepackage{graphicx, subfigure}
+\usepackage{dcolumn}% Align table columns on decimal point
+\usepackage{bm}% bold math
+
+\usepackage{lineno,hyperref, url}
+\usepackage{indentfirst}
+\usepackage{array, threeparttable}
+\usepackage{multirow}
+\usepackage{mathrsfs}
+\usepackage{color}
+\usepackage{amsmath, amssymb}
+\modulolinenumbers[5]
+
+\journal{Journal of \LaTeX\ Templates}
+
+%%%%%%%%%%%%%%%%%%%%%%%
+%% Elsevier bibliography styles
+%%%%%%%%%%%%%%%%%%%%%%%
+%% To change the style, put a % in front of the second line of the current style and
+%% remove the % from the second line of the style you would like to use.
+%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Numbered
+%\bibliographystyle{model1-num-names}
+
+%% Numbered without titles
+%\bibliographystyle{model1a-num-names}
+
+%% Harvard
+%\bibliographystyle{model2-names.bst}\biboptions{authoryear}
+
+%% Vancouver numbered
+%\usepackage{numcompress}\bibliographystyle{model3-num-names}
+
+%% Vancouver name/year
+%\usepackage{numcompress}\bibliographystyle{model4-names}\biboptions{authoryear}
+
+%% APA style
+%\bibliographystyle{model5-names}\biboptions{authoryear}
+
+%% AMA style
+%\usepackage{numcompress}\bibliographystyle{model6-num-names}
+
+%% `Elsevier LaTeX' style
+\bibliographystyle{elsarticle-num}
+%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{frontmatter}
+
+\title{Gas-kinetic scheme notes}
+\tnotetext[mytitlenote]{Notes for gas-kinetic scheme.}
+
+\author[mysecondaryaddress]{Ji Li\corref{mycorrespondingauthor}}
+\fntext[myfoootnote]{A study notes.}
+\cortext[mycorrespondingauthor]{Corresponding author}
+\ead{leejearl@126.com}
+\address{National Key Laboratory of Science and Technology on Aerodynamic Design and Research, Northwestern Polytechnical University, Xi'an, Shaanxi 710072, China}
+\begin{abstract}
+	Some important notes for gas-kinetic.
+\end{abstract}
+
+\begin{keyword}
+	Gas-kinetic, transformCoordSystem
+\end{keyword}
+
+\end{frontmatter}
+
+\linenumbers
+
+\section{$\overline{A}$}
+\begin{eqnarray}
+\overline{M}_{\alpha\beta}^{0}\overline{A}_\beta = \frac{1}{\rho_0}\left(\frac{\partial \rho}{\partial t},
+\frac{\partial {{\rho}U}}{\partial t},\frac{\partial {{\rho}V}}{\partial t},\frac{\partial E}{\partial t}\right)^T \nonumber \\
+= \frac{1}{\rho_0} \int [{\gamma}_1g_0 + \gamma_2u(\overline{a}^lH(u)+\overline{a}^r(1-H(u)))g_0 \nonumber\\
++\gamma_3\left(H[u]g^l+(1-H[u])g^r\right) \\
++\gamma_4u\left(a^lH[u]g^l + a^r(1-H[u])g^r\right) \nonumber\\
++\gamma_5\left((a^lu+A^l)H[u]g^l + (a^ru + A^r)(1-H[u])g^r   \right)]  
+\psi_{\alpha}d\Xi  \nonumber
+\end{eqnarray}
+
+where
+\begin{eqnarray}
+	\gamma_0 = \Delta{t} - \tau\left(1-e^{-\Delta{t}/\tau} \right) \\
+	\gamma_1 = -\left(1-e^{-\Delta{t}/\tau} \right)/\gamma_0 \\
+	\gamma_2 = \left(-\Delta{t} + 2\tau\left(1 - e^{-\Delta{t}/\tau}   \right) - \Delta{t}e^{-\Delta{t}/\tau}  \right)/\gamma_0 \\
+	\gamma_3 = - \gamma_1 \\
+	\gamma_4 = \left( 
+	\Delta{t}e^{-\Delta{t}/\tau} - \tau\left(
+	1 - e^{-\Delta{t}/\tau}
+	\right) 
+	\right) / \gamma_0 \\
+	\gamma_5 = -\tau\left(
+	1 - e^{-\Delta{t}/\tau}
+	\right)/\gamma_0
+\end{eqnarray}
+
+\section{$f$}
+\begin{eqnarray}
+	f\left(x_{j+1/2}, t, u, \upsilon, \xi \right) = \left(1 - e^{-t/\tau}\right)g_0 \nonumber \\
+	+ \left(\tau\left(-1 + e^{-t/\tau}\right) + te^{-t/\tau}\right)
+	\left(\overline{a}^lH[u] + \overline{a}^r(1-H[u]) \right)ug_0 \nonumber \\
+	+ \tau\left(t/\tau - 1 + e^{-t/\tau}\right)\overline{A}g_0 \\
+	+ e^{-t/\tau}\left(
+	(1 - u(t + \tau)a^l)H[u]g^l + (1 - u(t + \tau)a^r)(1 - H[u])g^r   
+	\right) \nonumber \\
+	+ e^{-t/\tau}\left(
+	-\tau A^lH[u]g^l - \tau A^r(1 - H[u])g^r 
+	\right) \nonumber
+\end{eqnarray}
+where
+\begin{eqnarray}
+	t_{00} = \int_0^{\Delta{t}} e^{-t/\tau}dt = -\tau\left(e^{-\Delta{t}/\tau} - 1\right) \\
+	t_{01} = -\tau\left(\Delta{t}e^{-\Delta{t}/\tau} - t_{00}\right)
+\end{eqnarray}
+
+
+\section{$Ma = B$}
+\begin{equation}
+	M = \left(\begin{array}{cccc} 
+	1 & U & V & C_1 \\
+	U & U^2 + 1/2\lambda & UV & C_2 \\
+	V & UV & V^2 + 1/2\lambda & C_3 \\
+	C_1 & C_2 & C_3 & C_4
+\end{array}
+\right)
+\end{equation}
+where
+\begin{eqnarray}
+	C_1 = \frac{1}{2}\left(
+	U^2 + V^2 + (K + 2)/2\lambda 
+	\right)\\
+	C_2 = \frac{1}{2}\left(
+	U^3 + V^2U + (K + 4)U/2\lambda 
+	\right)\\   
+	C_3 = \frac{1}{2}\left(
+	V^3 + U^2V + (K + 4)V/2\lambda 
+	\right)\\  
+	C_4 = \frac{1}{4}\left(
+	(U^2 + V^2)^2 + (K + 4)(U^2 + V^2)/\lambda + (K^2 + 6K + 8)/4\lambda^2 
+	\right)
+\end{eqnarray}
+let 
+\begin{eqnarray}
+	R_4 = 2b_4 - \left(
+	U^2 + V^2 + \frac{K + 2}{2\lambda}b_1 
+	\right) \\
+	R_3 = b_3 - Vb_1 \\
+	R_2 = b_2 - Ub_1 \\
+\end{eqnarray}
+the solution of the equations reads as 
+\begin{eqnarray}
+	a_4 = \frac{4\lambda^2}{K + 2}\left(R_4 - 2UR_2 - 2VR_3\right) \\
+	a_3 = 2\lambda{R_3} - Va_4 \\
+	a_2 = 2\lambda{R_2} - Ua_4 \\
+	a_1 = b_1 - Ua_2 - Va_3 - \frac{1}{2}a_4\left(U^2 + V^2 + \frac{K + 2}{2\lambda}\right)  
+\end{eqnarray}
+
+
+\section{Moments of the Maxwellian Distribution Function}
+	In the gas-kinetic scheme, to evaluate the moments of the Maxwellian distribution function is of great importance.
+	Here, the general formulas are listed as follows.
+	The Maxwellian distribution function for a 2D flow can be expressed as 
+	\begin{equation}\label{MaxwellianDistribution}
+		g=\rho\left(\frac{\lambda}{\pi}\right)e^{-\lambda\left(\left(u-U\right)^2+\left(v-V\right)^2+\xi^2\right)},
+	\end{equation}
+	where $\xi$ has $K$ degrees of freedom. Then, by introducing the following notation for the moments of $g$,
+	\begin{equation}\label{momNotation}
+		\rho<\cdots>=<u^m><v^n><\xi^l>,
+	\end{equation}
+	the general moment formula becomes
+	\begin{equation}\label{gMomNotation}
+		<u^mv^n\xi^l>=<u^m><v^n><\xi^l>,
+	\end{equation}
+	where $m$ and $n$ are integers, and $l$ denotes an even integer. Before giving the results of $<u^m>$, $<v^n>$ and $<\xi^l>$,
+	an important definite integrals are introduced as follows
+	\begin{equation}\label{aInt}
+		\int_{0}^{\infty}x^ne^{-\alpha x^2}dx=\left\{\begin{array}{c}
+		\varGamma\left(\frac{n+1}{2}\right)/\left(2\alpha^{\frac{n+1}{2}}\right), \qquad n,\alpha \in \mathcal{R}, \alpha>0, n>-1,\\
+		\frac{1 \cdot 3 \cdots \left(2k-1\right)\sqrt{\pi}}{2^{k+1}\alpha^{k+1/2}}, \qquad n=2k, k\in \mathcal{N},\\
+		\frac{k!}{2\alpha^{k+1}}, \qquad n=2k+1, k\in \mathcal{N}.
+		\end{array} \right.
+	\end{equation}
+	
+	The moments of $<\xi^l>$ are
+	\begin{equation}\label{momXi}
+	\begin{gathered}
+		<\xi^2>=\frac{K}{2\lambda},\\
+		<\xi^4>=\frac{3K+K\left(K-1\right)}{4\lambda^2},\\
+		<\xi^6>=\frac{15K+9K\left(K-1\right)+K\left(K-1\right)\left(K-2\right)}{8\lambda^3}.
+	\end{gathered}
+	\end{equation}
+\section*{References}
+
+\bibliography{mybibfile}
+
+\end{document}
