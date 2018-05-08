@@ -1,0 +1,300 @@
+\documentclass[review]{elsarticle}
+
+\usepackage{natbib}
+\usepackage{graphicx, subfigure}
+\usepackage{dcolumn}% Align table columns on decimal point
+\usepackage{bm}% bold math
+
+\usepackage{lineno,hyperref, url}
+\usepackage{indentfirst}
+\usepackage{array, threeparttable}
+\usepackage{multirow}
+\usepackage{mathrsfs}
+\usepackage{color}
+\usepackage{amsmath, amssymb}
+\modulolinenumbers[5]
+\journal{Journal of \LaTeX\ Templates}
+
+%%%%%%%%%%%%%%%%%%%%%%%
+%% Elsevier bibliography styles
+%%%%%%%%%%%%%%%%%%%%%%%
+%% To change the style, put a % in front of the second line of the current style and
+%% remove the % from the second line of the style you would like to use.
+%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Numbered
+%\bibliographystyle{model1-num-names}
+
+%% Numbered without titles
+%\bibliographystyle{model1a-num-names}
+
+%% Harvard
+%\bibliographystyle{model2-names.bst}\biboptions{authoryear}
+
+%% Vancouver numbered
+%\usepackage{numcompress}\bibliographystyle{model3-num-names}
+
+%% Vancouver name/year
+%\usepackage{numcompress}\bibliographystyle{model4-names}\biboptions{authoryear}
+
+%% APA style
+%\bibliographystyle{model5-names}\biboptions{authoryear}
+
+%% AMA style
+%\usepackage{numcompress}\bibliographystyle{model6-num-names}
+
+%% `Elsevier LaTeX' style
+\bibliographystyle{elsarticle-num}
+%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{frontmatter}
+	
+\title{The formula of 3-order gas-kinetic scheme}
+\author{Ji Li}
+\ead{leejearl@mail.nwpu.edu.cn}
+
+
+\address{National Key Laboratory of Science and Technology on Aerodynamic Design and Research, Northwestern Polytechnical 
+University, Xi'an, Shaanxi 710072, China}
+
+\begin{abstract}
+	Notes.
+\end{abstract}
+\end{frontmatter}
+
+\section{Initial distribution}
+
+\begin{itemize}
+	\item \textbf{Nomenclature}
+	\begin{equation}\label{Nomenclature1}
+	\begin{gathered}
+		a_1 = \frac{\partial g}{\partial x}/g, a_2 = \frac{\partial g}{\partial y}/g, 
+		A=\frac{\partial g}{\partial t}/g,\\
+		a_{11} = \frac{\partial a_1}{\partial x}, 
+		a_{12} = a_{21} = \frac{\partial a_1}{\partial y} = \frac{\partial a_2}{\partial x}, 
+		a_{22} = \frac{\partial a_2}{\partial y},\\
+		a_{1t} = \frac{\partial a_1}{\partial t} = \frac{\partial A}{\partial x}=A_1, 
+		a_{2t} = \frac{\partial a_2}{\partial t} = \frac{\partial A}{\partial y}=A_2, 
+		A_t=\frac{\partial A}{\partial t}.\\
+	\end{gathered}
+	\end{equation}
+	\begin{equation}\label{Nomenclature2}
+	\begin{gathered}
+		c_1=\frac{1}{\tau}\int_{0}^{t}e^{-\frac{t-t'}{\tau}}dt'=1-e^{-\frac{t}{\tau}},\\
+		c_2=-\frac{1}{\tau}\int_{0}^{t}\left(t-t'\right)e^{-\frac{t-t'}{\tau}}dt'
+		=te^{-\frac{t}{\tau}}-\tau c_1=\left(t+\tau\right)e^{-\frac{t}{\tau}}-\tau,\\
+		c_3=\frac{1}{\tau}\int_{0}^{t}t'e^{-\frac{t-t'}{\tau}}dt'
+		=t-\tau c_1=t-\tau +\tau e^{-\frac{t}{\tau}},\\
+		c_4=\frac{1}{\tau}\int_{0}^{t}\left(t-t'\right)^2e^{-\frac{t-t'}{\tau}}dt'
+		=-t^2e^{-\frac{t}{\tau}}-2\tau c_2=2\tau^2-e^{-\frac{t}{\tau}}\left(t^2+2t\tau+2\tau^2\right),\\
+		c_5=\frac{1}{\tau}\int_{0}^{t}t'^2e^{-\frac{t-t'}{\tau}}dt'
+		=t^2-2\tau c_3=t^2-2\tau t+2\tau^2-2\tau^2e^{-\frac{t}{\tau}},\\
+		c_6=-\frac{1}{\tau}\int_{0}^{t}t'\left(t-t'\right)e^{-\frac{t-t'}{\tau}}dt'
+		=c_4+tc_2=2\tau^2-t\tau-e^{-\frac{t}{\tau}}\left(t\tau+2\tau^2\right),\\
+		c_7 = e^{-t/\tau}, c_8=-te^{-t/\tau}, c_9=t^2e^{-t/\tau}.
+	\end{gathered}
+	\end{equation}
+	\begin{equation}\label{Nomenclature3}
+	\begin{gathered}
+		int\_c_1=\int_{0}^{\Delta t} c_1dt=\Delta{t} - \tau + \tau e^{- \frac{\Delta{t}}{\tau}},\\
+		int\_c_2=\int_{0}^{\Delta t} c_2dt
+			=- \Delta{t} \tau + 2 \tau^{2} - \left(\Delta{t} \tau + 2 \tau^{2}\right) e^{- \frac{\Delta{t}}{\tau}},\\
+		int\_c_3=\int_{0}^{\Delta t} c_3dt
+			=\frac{\Delta{t}^{2}}{2} - \Delta{t} \tau + \tau^{2} - \tau^{2} e^{- \frac{\Delta{t}}{\tau}},\\
+		int\_c_4=\int_{0}^{\Delta t} c_4dt
+			=2 \Delta{t} \tau^{2} - 6 \tau^{3} + \left(\Delta{t}^{2} \tau + 4 \Delta{t} \tau^{2} 
+			+ 6 \tau^{3}\right) e^{- \frac{\Delta{t}}{\tau}},\\
+		int\_c_5=\int_{0}^{\Delta t} c_5dt
+			=\frac{\Delta{t}^{3}}{3} - \Delta{t}^{2} \tau + 2 \Delta{t} \tau^{2} - 2 \tau^{3} 
+			+ 2 \tau^{3} e^{- \frac{\Delta{t}}{\tau}},\\
+		int\_c_6=\int_{0}^{\Delta t} c_6dt
+			=- \frac{\Delta{t}^{2} \tau}{2} + 2 \Delta{t} \tau^{2} - 3 \tau^{3} + \left(\Delta{t} \tau^{2} 
+			+ 3 \tau^{3}\right) e^{- \frac{\Delta{t}}{\tau}},\\
+		int\_c_7 =\int_{0}^{\Delta t}c_7dt=\tau - \tau e^{- \frac{\Delta{t}}{\tau}}, \\
+		int\_c_8=\int_{0}^{\Delta t}c_8dt=- \tau^{2} + \left(\Delta{t} \tau + \tau^{2}\right) e^{- \frac{\Delta{t}}{\tau}},\\
+		int\_c_9=\int_{0}^{\Delta t}c_9dt=2 \tau^{3} - \left(\Delta{t}^{2} \tau + 2 \Delta{t} \tau^{2} 
+			+ 2 \tau^{3}\right) e^{- \frac{\Delta{t}}{\tau}}.
+	\end{gathered}
+	\end{equation}
+	{\color {red}It should be noticed that the terms containing $\tau^2$ are omitted in the papers of Liang Pan, but not in works of Qibing Li.}  
+	\item \textbf{The initial distribution function $f_{NS}$ at the cell interface}
+		\begin{equation}\label{fNS}
+			f_{NS}=g_k-\tau(ua_{1,k}+va_{2,k}+A_k)g_k, k=l,r.
+		\end{equation}
+		Where, $a_{1,k}$, $a_{2,k}$ and $A_k$ denotes the normal, tangent and time derivative of initial equilibrium distribution respectively. $\tau$ is the collision time. $u$ and $v$ are the particle velocities. $g_k$ is the initial equilibrium at the 
+		cell interface.
+	\item \textbf{The 3-order initial distribution $f_{0,k}$ at the cell interface}
+		\begin{equation}\label{f0}
+			f_{0,k}=f_{NS}+\frac{\partial f_{NS}}{\partial x}x+\frac{\partial f_{NS}}{\partial y}y
+			+\frac{1}{2}\frac{\partial^2 f_{NS}}{\partial x^2}x^2
+			+\frac{\partial^2 f_{NS}}{\partial x\partial y}xy
+			+\frac{1}{2}\frac{\partial^2 f_{NS}}{\partial y^2}y^2,
+		\end{equation}
+		where
+		\begin{eqnarray}\label{dfNSx:1}
+			\frac{\partial f_{NS}}{\partial x}=\frac{\partial}{\partial x}{g_{k}} -\tau \left(u{a_{{1,k}}}+ v{a_{{2,k}}} 
+			+{A_{k}}\right) \frac{\partial}{\partial x}{g_{k}} \notag\\
+			-\tau \left(u \frac{\partial}{\partial x}{a_{{1,k}}} 
+			+ v \frac{\partial}{\partial x}{a_{{2,k}}} + \frac{\partial}{\partial x}{A_{k}}\right){g_{k}},
+		\end{eqnarray}
+		\begin{eqnarray}\label{dfNSy:1}
+			\frac{\partial f_{NS}}{\partial y}=\frac{\partial}{\partial y}{g_{k}} - \tau \left(u{a_{{1,k}}} 
+			+ v{a_{{2,k}}} +{A_{k}}\right) \frac{\partial}{\partial y}{g_{k}} \notag \\
+			- \tau \left(u \frac{\partial}{\partial y}{a_{{1,k}}} 
+			+ v \frac{\partial}{\partial y}{a_{{2,k}}} + \frac{\partial}{\partial y}{A_{k}}\right){g_{k}},
+		\end{eqnarray}
+		\begin{eqnarray}\label{dfNSx2:1}
+			\frac{\partial^2 f_{NS}}{\partial x^2}=\frac{\partial^{2}}{\partial x^{2}} {g_{k}} - \tau \left(u{a_{{1,k}}} 
+			+ v{a_{{2,k}}} +{A_{k}}\right) \frac{\partial^{2}}{\partial x^{2}}{g_{k}} \notag\\
+			- 2 \tau \left(u \frac{\partial}{\partial x}{a_{{1,k}}} 
+			+ v \frac{\partial}{\partial x}{a_{{2,k}}} 
+			+ \frac{\partial}{\partial x}{A_{k}}\right) \frac{\partial}{\partial x}{g_{k}} \notag\\
+			- \tau \left(u \frac{\partial^{2}}{\partial x^{2}} {a_{{1,k}}} 
+			+ v \frac{\partial^{2}}{\partial x^{2}} {a_{{2,k}}} 
+			+ \frac{\partial^{2}}{\partial x^{2}} {A_{k}}\right){g_{k}},
+		\end{eqnarray}
+		\begin{eqnarray}\label{dfNSxy:1}
+			\frac{\partial^2 f_{NS}}{\partial x\partial y}=\frac{\partial^{2}}{\partial x\partial y} {g_{k}} 
+			- \tau \left(u{a_{{1,k}}} + v{a_{{2,k}}} +{A_{k}}\right) \frac{\partial^{2}}{\partial x\partial y}{g_{k}} \notag\\
+			- \tau \left(u \frac{\partial}{\partial x}{a_{{1,k}}} + v \frac{\partial}{\partial x}{a_{{2,k}}} 
+			+ \frac{\partial}{\partial x}{A_{k}}\right) \frac{\partial}{\partial y}{g_{k}} \notag\\
+			- \tau \left(u \frac{\partial}{\partial y}{a_{{1,k}}} + v \frac{\partial}{\partial y}{a_{{2,k}}} 
+			+ \frac{\partial}{\partial y}{A_{k}}\right) \frac{\partial}{\partial x}{g_{k}} \notag\\
+			- \tau \left(u \frac{\partial^{2}}{\partial x\partial y} {a_{{1,k}}} 
+			+ v \frac{\partial^{2}}{\partial x\partial y} {a_{{2,k}}} 
+			+ \frac{\partial^{2}}{\partial x\partial y} {A_{k}}\right){g_{k}},
+		\end{eqnarray}	
+		and
+		\begin{eqnarray}\label{dfNSy2:1}
+			\frac{\partial^2 f_{NS}}{\partial y^2}=\frac{\partial^{2}}{\partial y^{2}} {g_{k}} - \tau \left(u{a_{{1,k}}} 
+			+ v{a_{{2,k}}} +{A_{k}}\right) \frac{\partial^{2}}{\partial y^{2}}{g_{k}} \notag\\
+			- 2 \tau \left(u \frac{\partial}{\partial y}{a_{{1,k}}}	+ v \frac{\partial}{\partial y}{a_{{2,k}}} 
+			+ \frac{\partial}{\partial y}{A_{k}}\right) \frac{\partial}{\partial y}{g_{k}} \notag\\
+			- \tau \left(u \frac{\partial^{2}}{\partial y^{2}} {a_{{1,k}}} + v \frac{\partial^{2}}{\partial y^{2}} {a_{{2,k}}} 
+			+ \frac{\partial^{2}}{\partial y^{2}} {A_{k}}\right){g_{k}}.
+		\end{eqnarray}	
+		Ignoring the higher order derivatives (higher than two order) and combining with the Eq. ~\eqref{Nomenclature1} and Eq. ~\eqref{Nomenclature2}, 
+		the Eq. ~\eqref{dfNSx:1} $\sim$ Eq. ~\eqref{dfNSy2:1} can be rewritten as 
+		\begin{equation}\label{dfNSx:2}
+			\frac{\partial f_{NS}}{\partial x}= g_k\{a_{1,k} - \tau \left(ua_{1,k}+ va_{2,k} 
+			+A_k\right)a_{1,k}-\tau \left(ua_{11} + va_{21} + a_{1t}\right)\},
+		\end{equation}
+		\begin{eqnarray}\label{dfNSy:2}
+			\frac{\partial f_{NS}}{\partial y}= g_k\{a_{2,k} - \tau \left(ua_{1,k}+ va_{2,k} 
+			+A_k\right)a_{2,k}-\tau \left(ua_{12} + va_{22} + a_{2t}\right)\},
+		\end{eqnarray}
+		\begin{eqnarray}\label{dfNSx2:2}
+			\frac{\partial^2 f_{NS}}{\partial x^2}=\frac{\partial^{2}}{\partial x^{2}} {g_{k}}
+			=\frac{\partial}{\partial x} {a_1g_{k}}=g_k\{a_1^2+a_{11}\},
+		\end{eqnarray}
+		\begin{eqnarray}\label{dfNSxy:2}
+			\frac{\partial^2 f_{NS}}{\partial x\partial y}=\frac{\partial^{2}}{\partial x\partial y} {g_{k}}
+			=\frac{\partial}{\partial x} \left(a_2g_{k}\right)=\frac{\partial}{\partial y} \left(a_1g_{k}\right)\notag\\
+			=g_k\{a_{21}+a_1a_2\}=g_k\{a_{12}+a_1a_2\}
+		\end{eqnarray}	
+		and
+		\begin{eqnarray}\label{dfNSy2:2}
+			\frac{\partial^2 f_{NS}}{\partial y^2}=\frac{\partial^{2}}{\partial y^{2}} {g_{k}}
+			=\frac{\partial}{\partial y} {a_2g_{k}}=g_k\{a_2^2+a_{22}\}.
+		\end{eqnarray}
+		Substituting Eq. ~\eqref{dfNSx:2} $\sim$ Eq. ~\eqref{dfNSy2:2} into Eq. ~\eqref{fNS}
+		\begin{equation}\label{fNS:2}
+		\begin{gathered}
+			e^{-t/\tau}f(-ut, y-vt, u, v) = c_7g_k\{1-\tau\left(a_{1,k}u+a_{2,k}v+A_k\right)\}\\
+			+c_8g_k\{
+				a_{1,k}u-\tau\left(
+				\left(a_{1,k}^2+a_{11,k}\right)u^2
+				+\left(a_{1,k}a_{2,k}+a_{12,k}\right)uv
+				+\left(A_ka_{1,k}+a_{1t}\right)u
+				\right)
+			    \}\\
+			+c_8g_k\{
+				a_{2,k}v-\tau\left(
+				\left(a_{1,k}a_{2,k}+a_{12,k}\right)uv
+				+\left(a_{2,k}^2+a_{22,k}\right)v^2
+				+\left(A_ka_{2,k}+a_{2t}\right)v
+				\right)
+				\}\\
+			+c_7g_k\{
+				a_{2,k}-\tau\left(
+				\left(a_{1,k}a_{2,k}+a_{12,k}\right)u
+				+\left(a_{2,k}^2+a_{22,k}\right)v
+				+\left(A_ka_{2,k}+a_{2t}\right)
+				\right)
+				\}y\\
+			+\frac{1}{2}c_7g_k\{
+				\left(a_{1,k}^2+a_{11,k}\right)\left(-ut\right)^2
+				+2\left(a_{1,k}a_{2,k}+a_{12,k}\right)\left(-ut\right)\left(y-vt\right)
+				+\left(a_{2,k}^2+a_{22,k}\right)\left(y-vt\right)^2
+				\},
+		\end{gathered}
+		\end{equation}	
+		and then
+		\begin{equation}\label{fNS:3}
+		\begin{gathered}
+		e^{-t/\tau}f(-ut, y-vt, u, v) =c_7\left(1-\tau A_k + a_{2,k}y\right)g_k\\
+			+\left(c_8-\tau c_7\right)\left(a_{1,k}u+a_{2,k}v\right)g_k\\
+			+\left(\frac{1}{2}c_7t^2-c_8\tau\right)\left(a_{1,k}^2+a_{11,k}\right)u^2g_k\\
+			+\left(\frac{1}{2}c_7t^2-c_8\tau\right)\left(a_{2,k}^2+a_{22,k}\right)v^2g_k\\
+			+\left(c_7t^2-2c_8\tau\right)\left(a_{1,k}a_{2,k}+a_{12,k}\right)uvg_k\\
+			-\left(c_7\tau+c_7t\right)\left(a_{1,k}a_{2,k}+a_{12,k}\right)uyg_k\\
+			-\left(c_7\tau+c_7t\right)\left(a_{2,k}^2+a_{22,k}\right)vyg_k\\
+			-c_8\tau\left(\left(A_ka_{1,k}+a_{1t}\right)u+\left(A_ka_{2,k}+a_{2t}\right)v\right)g_k\\
+		-c_7\tau\left(A_ka_{2,k}+a_{2t}\right)yg_k\\
+		+\frac{1}{2}c_7\left(a_{2,k}^2+a_{22,k}\right)y^2g_k\\
+		=c_7\left(1-\tau A_k + a_{2,k}y\right)g_k\\
+			+\left(c_8-\tau c_7\right)\left(a_{1,k}u+a_{2,k}v\right)g_k\\
+			+\left(\frac{1}{2}c_9-c_8\tau\right)\left(a_{1,k}^2+a_{11,k}\right)u^2g_k\\
+			+\left(\frac{1}{2}c_9-c_8\tau\right)\left(a_{2,k}^2+a_{22,k}\right)v^2g_k\\
+			+\left(c_9-2c_8\tau\right)\left(a_{1,k}a_{2,k}+a_{12,k}\right)uvg_k\\
+			-\left(c_7\tau-c_8\right)\left(a_{1,k}a_{2,k}+a_{12,k}\right)uyg_k\\
+			-\left(c_7\tau-c_8\right)\left(a_{2,k}^2+a_{22,k}\right)vyg_k\\
+			-c_8\tau\left(\left(A_ka_{1,k}+a_{1t}\right)u+\left(A_ka_{2,k}+a_{2t}\right)v\right)g_k\\
+			-c_7\tau\left(A_ka_{2,k}+a_{2t}\right)yg_k\\
+			+\frac{1}{2}c_7\left(a_{2,k}^2+a_{22,k}\right)y^2g_k.
+		\end{gathered}
+		\end{equation}
+	\item \textbf{The equilibrium state g}\\
+	The equilibrium state $g$ at the cell interface can be expressed as
+	\begin{equation}
+		g=g_0+\frac{\partial g_0}{\partial x}x+\frac{\partial g_0}{\partial y}y+\frac{\partial g_0}{\partial t}t
+		+\frac{1}{2}\frac{\partial^2 g_0}{\partial x^2}x^2+\frac{\partial^2 g_0}{\partial x\partial y}xy
+		+\frac{1}{2}\frac{\partial^2 g_0}{\partial y^2}y^2+\frac{1}{2}\frac{\partial^2 g_0}{\partial t^2}t^2
+		+\frac{\partial^2 g_0}{\partial x\partial t}xt+\frac{\partial^2 g_0}{\partial y\partial t}yt.
+	\end{equation}
+	Combining with the Eq. ~\eqref{Nomenclature1} and Eq. ~\eqref{Nomenclature2}, we can obtain the formula as follow
+	\begin{equation}\label{g}
+	\begin{gathered}
+		\frac{1}{\tau}\int_{0}^{t}g(x', y', t', u, v)e^{-\frac{t-t'}{\tau}}dt'=c_1g_0+c_2g_0\overline{a}_1u+c_2g_0\overline{a}_2v
+		+c_1g_0\overline{a}_2y+c_3g_0\overline{A}\\
+		+\frac{1}{2}c_4g_0\left(\overline{a}_1^2+\overline{a}_{11}\right)u^2
+		+c_6g_0\left(\overline{A}\overline{a}_1+\overline{A}_1\right)u
+		+\frac{1}{2}c_5g_0\left(\overline{A}^2+\overline{A}_t\right)\\
+		+\frac{1}{2}c_1g_0\left(\overline{a}^2_2+\overline{a}_{22}\right)y^2
+		+c_2g_0\left(\overline{a}^2_2+\overline{a}_{22}\right)vy
+		+\frac{1}{2}c_4g_0\left(\overline{a}^2_2+\overline{a}_{22}\right)v^2 \\
+		+c_2g_0\left(\overline{a}_1\overline{a}_2+\overline{a}_{12}\right)uy
+		+c_4g_0\left(\overline{a}_1\overline{a}_2+\overline{a}_{12}\right)uv \\
+		+c_3g_0\left(\overline{A}\overline{a}_2+\overline{A}_2\right)y
+		+c_6g_0\left(\overline{A}\overline{a}_2+\overline{A}_2\right)v.
+	\end{gathered}
+	\end{equation}
+	\item \textbf{Gaussian quadrature}\\
+	The Gaussian quadrature rule is stated as 
+	\begin{equation}\label{Gaussian-quadrature1}
+		\int_{-1}^{1}f(x)dx \approx \sum_{i=1}^{n}w_if(x_i),
+	\end{equation}
+	where $w_i$ denotes the weights, and $x_i$ represents the Gaussian points. An integral over $[a, b]$ must be changed into an integral over $[-1, 1]$ before applying the Gaussian quadrature rule. This change of interval can be done in the following way:
+	\begin{equation}\label{Gaussian-quadrature2}
+		\int_{a}^{b}f(x)dx = \frac{b-a}{2}\int_{-1}^{1}f\left(\frac{b-a}{2}x+\frac{b+a}{2}\right)dx.
+	\end{equation}
+	Applying the Gaussian quadrature rule then results in the following approximation:
+	\begin{equation}\label{Gaussian-quadrature3}
+		\int_{a}^{b}f(x)dx \approx \frac{b-a}{2}\sum_{i=1}^{n}w_if\left(\frac{b-a}{2}x_i+\frac{b+a}{2}\right).
+ 	\end{equation}   
+\end{itemize}
+
+
+\end{document}
