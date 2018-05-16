@@ -1,0 +1,155 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage{xeCJK}
+\setCJKmainfont{KaiTi}
+
+\title{Non-Dimensionalization}
+\author{Li Ji}
+\usepackage{xeCJK}
+\setCJKmainfont{KaiTi}
+\setCJKsansfont{KaiTi}
+\setCJKmonofont{KaiTi}
+\usepackage{wallpaper}
+\usepackage{subfigure}
+\usepackage{lineno,hyperref}
+\usepackage{indentfirst}
+\usepackage{bm}
+\usepackage{threeparttable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{epstopdf}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+\begin{abstract}
+\end{abstract}
+
+\section{Basic Non-Dimensionalization System}
+说明1：本无量纲系统采用与SU2一致的无量纲方式！其目的是为了保证无量纲化前后计算公式的一致性; \\
+说明2：设$param$为某参数，则$\overline{param}$则表示该参数的无量纲值，$param_{ref}$表示该参数的参考值;\\
+说明3：$param=\overline{param} \times param_{ref}$。
+\begin {enumerate}
+    \item {Basic Reference Parameters} \\
+        本无量纲系统中有四个基本的参考参数：\\
+        $p_{ref}$、$T_{ref}$、 $\rho_{ref}$、$L_{ref}$ \\
+        其余参考参数都由以上四个基本参考值确定。\\
+        众所周知，理想气体的状态方程为：
+        \begin{equation}
+            p=\rho R T
+        \end{equation}
+        而为了保持无量纲化前后计算公式的一致性，则无量纲的理想气体状态方程应为：
+        \begin{equation}
+            \overline{p}=\overline{\rho} \overline{R} \overline{T}
+        \end{equation}
+        这里我们引进气体常数$R$的参考值$R_{ref}$。
+        \begin{equation}\label{refrelationSU2}
+            p=\rho R T \Rightarrow \overline{p}p_{ref}=\overline{\rho}\rho_{ref}\overline{R}R_{ref}\overline{T}T_{ref} \\
+            \Rightarrow R_{ref} = \frac{p_{ref}}{\rho_{ref}T_{ref}}
+        \end{equation}
+        式.\eqref{refrelationSU2} 是SU2量纲系统中必须满足的条件。
+        在GKS中: $\lambda=\frac{1}{2RT}$, 所以
+        \begin{equation} \label{plambda1}
+            p = \frac{\rho}{2\lambda}
+        \end{equation}
+        为了保持公式的不变性,无量纲后
+        \begin{equation} \label{plambda2}
+            \overline{p} = \frac{\overline{\rho}}{2\overline{\lambda}}
+        \end{equation}
+        结合式\eqref{refrelationSU2}、\eqref{plambda1} 与 \eqref{plambda2}可得
+        \begin{equation}\label{refrelationGKS}
+            \lambda_{ref} = \frac{\rho_{ref}}{p_{ref}}
+        \end{equation}
+        式\eqref{refrelationGKS}为GKS必须要满足的条件。由此可得
+        \begin{equation}
+            \overline{\lambda} = \frac{1}{2\overline{R}\overline{T}}
+        \end{equation}
+
+    \item {$u_{ref}$} \\
+        这里我们推导参考速度$u_{ref}$ \\
+        声速的计算公式为
+        \begin{equation}
+            a=\sqrt{\frac{\gamma}{2\lambda}}
+        \end{equation}
+        为了保持计算公式的一致性，无量纲化后应有：
+        \begin{equation}
+            \overline{a}=\sqrt{\frac{\gamma}{2\overline{\lambda}}}
+        \end{equation}
+        采用与以上相同的过程，可得
+        \begin{equation}
+            u_{ref} = \sqrt{\frac{1}{\lambda_{ref}}}=\sqrt{\frac{p_{ref}}{\rho_{ref}}}
+        \end{equation}
+    \item {$t_{ref}$}\\
+        显而易见，参考时间为
+        \begin{equation}
+            t_{ref} = \frac{L_{ref}}{u_{ref}}
+        \end{equation}
+\end{enumerate}
+
+\section{Cases}
+无量纲系统的意义在于消除了不同单位制的差异，以及不同无量纲系统之间的转化，现举例如下：
+\begin{enumerate}
+    \item {Case1} \\
+        \begin{eqnarray}
+            p_{ref} = 2p_{\infty} \\
+            \rho_{ref} = \rho_{\infty} \\
+            T_{ref} = T_{\infty} \\
+            L_{ref} = 1 \\
+        \end{eqnarray}
+        四种基本量纲都已给出。
+
+    \item {Case2} \\
+        \begin{eqnarray}
+            p_{ref} = p_{\infty} \\
+            \rho_{ref} = \rho_{\infty} \\
+            T_{ref} = T_{\infty} \\
+            L_{ref} = 1 \\
+        \end{eqnarray}
+        四种基本量纲都已给出。
+    \item {Case3} \\
+        \begin{eqnarray}
+            u_{ref} = a_{\infty} \\
+            \rho_{ref} = \frac{\rho_{\infty}}{\gamma} \\
+            L_{ref} = 1 \\
+            R_{ref} = R_{\infty}
+        \end{eqnarray}
+        在此量纲系统中$T_{ref}$与$p_{ref}$被$u_{ref}$与$R_{ref}$所取代，所以我们需要求出
+        $T_{ref}$与$p_{ref}$
+        因为
+        \begin{equation}
+            u_{ref} = \sqrt{\frac{p_{ref}}{\rho_{ref}}}
+        \end{equation}
+        所以可得
+        \begin{equation}
+            p_{ref} = \rho_{ref}u_{ref}^2 = \frac{\rho_{\infty}}{\gamma}\gamma R_{\infty}T_{\infty}\\
+            =\rho_{\infty}R_{\infty}T_{\infty}
+        \end{equation}
+        \begin{equation}
+            T_{ref}=\frac{p_{ref}}{\rho_{ref}R_{ref}}=\frac{\rho_{\infty}R_{\infty}T_{\infty}}{\frac{\rho_{\infty}}{\gamma}R_{\infty}}
+            =\gamma T_{\infty}
+        \end{equation}
+        至此，四个基本参考参数都已求出，其余参考参数可用基本参考值表示。易验证，两种量纲系统统一无冲突。
+    \item {Case4} \\
+        \begin{eqnarray}
+            \rho_{ref} = \rho_{\infty} \\
+            \lambda_{ref} = \lambda_{\infty} \\
+            L_{ref} = 1 \\
+            R_{ref} = R_{\infty}
+        \end{eqnarray}
+        在此量纲系统中$p_{ref}$与$T_{ref}$被$\lambda_{ref}$与$R_{ref}$所取代，所以我们需要求出
+        $p_{ref}$与$T_{ref}$，其过程如下：
+        \begin{eqnarray}
+            T_{ref}=\frac{1}{R_{ref}\lambda_{ref}}=\frac{1}{R_{\infty}\lambda_{\infty}} \\
+            = \frac{1}{R_{\infty}\frac{1}{2R_{\infty}T_{\infty}}}=2T_{\infty}\\
+            p_{ref}=\rho_{ref}R_{ref}T_{ref}=2\rho_{\infty}R_{\infty}T_{\infty}
+        \end{eqnarray}
+        至此，四个基本参考参数都已求出，其余参考参数可用基本参考值表示。易验证，两种量纲系统统一无冲突。
+
+\end{enumerate}
+\end{document}
